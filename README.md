@@ -44,8 +44,10 @@
 ### ④ 動作テスト
 
 1. リポジトリ上部の **Actions** タブを開く（「ワークフローを有効にしますか？」と出たら有効にする）
-2. 左の **「Daily AI News」** → 右の **「Run workflow」** → 緑の「Run workflow」
-3. 1分ほどでDiscordにニュースが届けば成功 🎉
+2. 左の **「Daily AI News」** → 右の **「Run workflow」** を押す
+3. まず **mode を `check`** にして緑の「Run workflow」→ 投稿せずに接続先だけ確認できます
+   - 実行結果のログ（`post` →「Post AI news to Discord」）に **Webhook名と投稿先チャンネルのリンク** が出ます
+4. 問題なければ **mode を `post`** にしてもう一度実行 → 1分ほどでDiscordにニュースが届けば成功 🎉
 
 あとは毎日15:00に自動で投稿されます。
 
@@ -99,9 +101,14 @@ A. GitHubは混雑時に起動が遅れることがあるため、14:45に起動
 
 **Q. 投稿されない / Actionsが赤く失敗している**
 - Actions タブで失敗した実行を開き、ログを確認してください
-- `Discordへの投稿に失敗 (401/404)` → Webhook URL が間違っているか、Discord側で削除されています。③をやり直してください
+- `Webhook URLになっていません` → 招待リンクなど別のURLを登録しています。②③をやり直してください
+- `Webhookが見つかりません` → Webhook URL が間違っているか、Discord側で削除されています。②③をやり直してください
 - `git push` で失敗 → **Settings → Actions → General → Workflow permissions** を **「Read and write permissions」** にして保存
 - 新着ニュースが0件の日は投稿しません（ログに「新しいニュースがなかった」と出ます）
+
+**Q. 成功したのに、見ているチャンネルに届かない**
+- ログの「投稿先チャンネル」のリンクを開くと、実際に投稿されたチャンネルに飛べます
+- ウェブフック作成時に投稿先チャンネルを選び忘れると、別のチャンネルに投稿されます。Discord の **サーバー設定 → 連携サービス → ウェブフック** でそのウェブフックの「チャンネル」を変えて保存してください（URLは変わらないので GitHub 側の作業は不要です）
 
 **Q. 止めたい**
 A. Actions タブ →「Daily AI News」→ 右上「…」→ **Disable workflow**。
