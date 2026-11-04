@@ -6,6 +6,14 @@ on:
     # （GitHubの定時実行は数分〜十数分遅れることがあるため早めに起動しています）
     - cron: "45 5 * * *"
   workflow_dispatch: # 「Run workflow」ボタンで手動テストできる
+    inputs:
+      mode:
+        description: "post = ニュースを投稿 / check = 投稿せずに投稿先チャンネルだけ確認"
+        type: choice
+        options:
+          - post
+          - check
+        default: post
 
 permissions:
   contents: write # 投稿済み履歴(posted.json)を保存するため
@@ -28,6 +36,7 @@ jobs:
         run: python ai_news.py
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_MODE: ${{ inputs.mode }}
 
       - name: Save posted history
         run: |
