@@ -1,5 +1,17 @@
 {
   "last_post_date": "",
-  "urls": [],
-  "titles": []
+  "urls": [
+    "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BcFJVQktrT0k0UHU1RHU0YlFRTHdicmp0aXVfdWhxQnlHY1FtcldyWUVENWtxNTNVY0dWU0JnQVc1UVpsOXpaaTEzTVZVMFhDZ0tKUHhLeHA4R1hpT19faXRTTmZ5UGZyNVE3Wjk2M2w5T1U?oc=5",
+    "https://monoist.itmedia.co.jp/mn/articles/2611/04/news064.html",
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHbXYzU1laNkhEOEo5LXdVTzBJdjFCYmNwanR5UUY5bWRRQTZjVldNQXoyV2p4WXEwYUVBeXBxYXRWOVU2TUJkUGJHWWZ0MzRHSlMxOG43VQ?oc=5"
+  ],
+  "titles": [
+    "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
+    "anthropicclaudecodeによるゲームの複製を制限",
+    "openaiの脱走するai封じ込め策があまりにもエヴァンゲリオン",
+    "製造業の秘伝のタレはaiに奪われるのか競争力の源泉はどこにある",
+    "部屋割りにかける業務時間生成aiで6分の1に短縮那覇市のホテルがaiトラベル社と提携"
+  ]
 }
