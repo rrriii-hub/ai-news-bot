@@ -1,7 +1,8 @@
 """毎日のAIニュースをDiscordに投稿するスクリプト（Python標準ライブラリのみ・無料）
 
 環境変数:
-  DISCORD_WEBHOOK_URL  投稿先チャンネルのWebhook URL（必須。未設定なら画面に表示するだけ）
+  DISCORD_WEBHOOK_URL  投稿先チャンネルのWebhook URL（GitHub Actionsでは必須。手元で未設定なら表示だけ）
+  RUN_MODE=check       投稿せずに、Webhookの投稿先（チャンネル）だけ確認する
   DRY_RUN=1            投稿せずに結果を表示するだけ（お試し用）
 """
 import html
@@ -24,6 +25,8 @@ HISTORY_PATH = os.path.join(ROOT, "posted.json")
 HISTORY_LIMIT = 1000
 FETCH_UA = "Mozilla/5.0 (compatible; ai-news-discord-bot/1.0)"
 DISCORD_UA = "DiscordBot (https://github.com, 1.0)"
+WEBHOOK_RE = re.compile(
+    r"^https://(?:(?:ptb|canary)\.)?discord(?:app)?\.com/api(?:/v\d+)?/webhooks/\d+/[\w-]+/?(?:\?.*)?$")
 
 
 # ---------- ユーティリティ ----------
@@ -205,19 +208,53 @@ def build_payload(config, items, today):
     return payload
 
 
-def post_discord(webhook, payload):
-    body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(webhook, data=body, method="POST", headers={
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """転送（リダイレクト）は失敗扱いにする。招待リンクなどを登録したときに「成功」と誤判定しないため"""
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+DISCORD = urllib.request.build_opener(_NoRedirect)
+
+
+def discord_request(url, payload=None):
+    data = json.dumps(payload).encode("utf-8") if payload is not None else None
+    req = urllib.request.Request(url, data=data, method="POST" if data else "GET", headers={
         "Content-Type": "application/json", "User-Agent": DISCORD_UA})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=20):
-                return
+            with DISCORD.open(req, timeout=20) as r:
+                return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:  # レート制限なら待って再送
                 time.sleep(5)
                 continue
-            raise RuntimeError(f"Discordへの投稿に失敗 ({e.code}): {e.read()[:300]!r}")
+            if e.code in (401, 404):
+                sys.exit("[error] Webhookが見つかりません。Discord側で削除されたか、URLが間違っています。"
+                         "README の②③をやり直してください。")
+            sys.exit(f"[error] Discordへの接続に失敗 ({e.code}): {e.read()[:300]!r}")
+
+
+def check_webhook(webhook):
+    """Webhookの名前と投稿先チャンネルをログに出す（投稿はしない）"""
+    if not WEBHOOK_RE.match(webhook):
+        sys.exit("[error] DISCORD_WEBHOOK_URL がDiscordのWebhook URLになっていません。\n"
+                 "招待リンク（discord.gg/...）やチャンネルのURLではなく、\n"
+                 "サーバー設定 → 連携サービス → ウェブフック →「ウェブフックURLをコピー」で取った\n"
+                 "https://discord.com/api/webhooks/ で始まるURLを登録し直してください（README の②③）。")
+    info = discord_request(webhook.split("?")[0])
+    print(f"[info] Webhook名: {info.get('name')} / 投稿先チャンネル: "
+          f"https://discord.com/channels/{info.get('guild_id')}/{info.get('channel_id')}")
+    return info
+
+
+def post_discord(webhook, payload):
+    """?wait=true を付けて、Discordに「実際に投稿したメッセージ」を返してもらう"""
+    sep = "&" if "?" in webhook else "?"
+    msg = discord_request(f"{webhook}{sep}wait=true", payload)
+    if not isinstance(msg, dict) or not msg.get("id"):
+        sys.exit("[error] Discordから投稿結果が返ってきませんでした")
+    return msg
 
 
 # ---------- メイン ----------
@@ -238,6 +275,18 @@ def main():
         sys.exit("config.json が読めません")
     history = load_json(HISTORY_PATH, {"last_post_date": "", "urls": [], "titles": []})
 
+    webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
+    dry_run = os.environ.get("DRY_RUN") == "1" or (not webhook and not in_actions)
+    info = {}
+    if not dry_run:
+        if not webhook:
+            sys.exit("[error] DISCORD_WEBHOOK_URL が登録されていません（README の③）")
+        info = check_webhook(webhook)
+        if os.environ.get("RUN_MODE") == "check":
+            print("[info] 接続チェックOK（チェックだけなので投稿はしていません）")
+            return
+
     scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
     today = datetime.now(JST).date()
     if scheduled and history.get("last_post_date") == today.isoformat():
@@ -252,14 +301,14 @@ def main():
         return
 
     payload = build_payload(config, items, today)
-    webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
-    if os.environ.get("DRY_RUN") == "1" or not webhook:
+    if dry_run:
         print("[dry-run] 以下の内容を投稿します（実際には送っていません）")
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return
 
-    post_discord(webhook, payload)
-    print(f"[info] {len(items)}件を投稿しました")
+    msg = post_discord(webhook, payload)
+    print(f"[info] {len(items)}件を投稿しました → https://discord.com/channels/"
+          f"{info.get('guild_id')}/{msg.get('channel_id')}/{msg['id']}")
 
     history["urls"] = (history.get("urls", []) + [i["url"] for i in items])[-HISTORY_LIMIT:]
     history["titles"] = (history.get("titles", []) +
