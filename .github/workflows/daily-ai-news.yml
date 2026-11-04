@@ -1,0 +1,40 @@
+name: Daily AI News
+
+on:
+  schedule:
+    # 14:45 JST に起動 → スクリプトが 15:00 JST まで待ってから投稿
+    # （GitHubの定時実行は数分〜十数分遅れることがあるため早めに起動しています）
+    - cron: "45 5 * * *"
+  workflow_dispatch: # 「Run workflow」ボタンで手動テストできる
+
+permissions:
+  contents: write # 投稿済み履歴(posted.json)を保存するため
+
+concurrency:
+  group: daily-ai-news
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Post AI news to Discord
+        run: python ai_news.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Save posted history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posted.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update posted history"
+            git push
+          fi
