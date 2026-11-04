@@ -1,0 +1,24 @@
+{
+  "post_time_jst": "15:00",
+  "count": 5,
+  "max_age_hours": 36,
+  "bot_name": "AIニュース速報",
+  "avatar_url": "",
+  "header": "📰 **今日の主要AIニュース**（{date}）",
+  "color": 5793266,
+  "exclude_words": ["セミナー", "ウェビナー", "キャンペーン", "募集", "PR TIMES", "プレスリリース", "株価", "【PR】"],
+  "feeds": [
+    {
+      "name": "ITmedia AI+",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+    },
+    {
+      "name": "Googleニュース（生成AI）",
+      "google_news": "生成AI OR ChatGPT OR Gemini OR Claude"
+    },
+    {
+      "name": "Googleニュース（AI企業）",
+      "google_news": "OpenAI OR Anthropic OR \"Google DeepMind\" OR \"Microsoft AI\" OR NVIDIA AI"
+    }
+  ]
+}
