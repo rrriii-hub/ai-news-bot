@@ -3,23 +3,25 @@ name: Daily AI News
 on:
   schedule:
     # 14:45 JST に起動 → スクリプトが 15:00 JST まで待ってから投稿
-    # （GitHubの定時実行は数分〜十数分遅れることがあるため早めに起動しています）
+    # GitHubの定時実行は混雑すると遅れることがあるため、時間どおりに届けたい場合は
+    # README の⑤で外部タイマー（cron-job.org）も設定してください（こちらは予備として残ります）
     - cron: "45 5 * * *"
-  workflow_dispatch: # 「Run workflow」ボタンで手動テストできる
+  workflow_dispatch: # 「Run workflow」ボタンでの手動テストや、外部タイマーからの起動に使う
     inputs:
       mode:
-        description: "post = ニュースを投稿 / check = 投稿せずに投稿先チャンネルだけ確認"
+        description: "post = 今すぐ投稿 / check = 投稿先チャンネルの確認だけ / daily = 毎日の定時投稿（外部タイマー用）"
         type: choice
         options:
           - post
           - check
+          - daily
         default: post
 
 permissions:
   contents: write # 投稿済み履歴(posted.json)を保存するため
 
 concurrency:
-  group: daily-ai-news
+  group: daily-ai-news # 同時に起動しても1つずつ順番に動かす（二重投稿防止）
 
 jobs:
   post:
@@ -27,6 +29,8 @@ jobs:
     timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }} # 起動した時点ではなく、最新の投稿履歴を読む（二重投稿防止）
 
       - uses: actions/setup-python@v5
         with:
@@ -45,5 +49,6 @@ jobs:
           git add posted.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update posted history"
+            git pull --rebase
             git push
           fi
