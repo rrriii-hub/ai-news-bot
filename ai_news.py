@@ -3,6 +3,7 @@
 環境変数:
   DISCORD_WEBHOOK_URL  投稿先チャンネルのWebhook URL（GitHub Actionsでは必須。手元で未設定なら表示だけ）
   RUN_MODE=check       投稿せずに、Webhookの投稿先（チャンネル）だけ確認する
+  RUN_MODE=daily       毎日の定時投稿と同じ動き（1日1回だけ・投稿時刻まで待つ）。外部タイマーからの起動用
   DRY_RUN=1            投稿せずに結果を表示するだけ（お試し用）
 """
 import html
@@ -271,15 +272,17 @@ def post_discord(webhook, payload):
 
 
 # ---------- メイン ----------
-def wait_for_post_time(config):
-    """定時実行のときだけ、指定時刻（日本時間）まで待つ。GitHubの起動遅れ対策で少し早めに起動している"""
+def nearest_post_time(config, now):
+    """前後12時間以内でいちばん近い投稿時刻（日本時間）。
+    起動が遅れて日付をまたいでも、何日の分の投稿かを取り違えないように"""
     hh, mm = map(int, config.get("post_time_jst", "15:00").split(":"))
-    now = datetime.now(JST)
     target = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
-    wait = (target - now).total_seconds()
-    if 0 < wait <= 40 * 60:
-        print(f"[info] {target:%H:%M} まで {int(wait)} 秒待ちます")
-        time.sleep(wait)
+    diff = (target - now).total_seconds()
+    if diff < -12 * 3600:
+        target += timedelta(days=1)
+    elif diff > 12 * 3600:
+        target -= timedelta(days=1)
+    return target
 
 
 def main():
@@ -289,6 +292,7 @@ def main():
     history = load_json(HISTORY_PATH, {"last_post_date": "", "urls": [], "titles": []})
 
     webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    mode = os.environ.get("RUN_MODE", "")
     in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
     dry_run = os.environ.get("DRY_RUN") == "1" or (not webhook and not in_actions)
     info = {}
@@ -296,24 +300,35 @@ def main():
         if not webhook:
             sys.exit("[error] DISCORD_WEBHOOK_URL が登録されていません（README の③）")
         info = check_webhook(webhook)
-        if os.environ.get("RUN_MODE") == "check":
+        if mode == "check":
             print("[info] 接続チェックOK（チェックだけなので投稿はしていません）")
             return
 
-    scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
-    today = datetime.now(JST).date()
-    if scheduled and history.get("last_post_date") == today.isoformat():
-        print("[info] 今日はもう投稿済みなのでスキップします")
-        return
-    if scheduled:
-        wait_for_post_time(config)
+    # 毎日の定時投稿（GitHubの定時実行、または外部タイマーからの mode=daily）は1日1回だけ。
+    # 投稿時刻の少し前に起動し、時刻ちょうどまで待ってから投稿する
+    daily = os.environ.get("GITHUB_EVENT_NAME") == "schedule" or mode == "daily"
+    now = datetime.now(JST)
+    post_day = now.date()
+    if daily:
+        target = nearest_post_time(config, now)
+        post_day = target.date()
+        wait = (target - now).total_seconds()
+        if history.get("last_post_date") == post_day.isoformat():
+            print(f"[info] {post_day:%m/%d} の分はもう投稿済みなのでスキップします")
+            return
+        if wait > 40 * 60:
+            print(f"[info] 投稿時刻（{target:%m/%d %H:%M}）の40分以上前なので、何もせずに終わります")
+            return
+        if wait > 0:
+            print(f"[info] {target:%H:%M} まで {int(wait)} 秒待ちます")
+            time.sleep(wait)
 
     items = collect(config, history)
     if not items:
         print("[info] 新しいニュースがなかったので投稿しません")
         return
 
-    payload = build_payload(config, items, today)
+    payload = build_payload(config, items, post_day)
     if dry_run:
         print("[dry-run] 以下の内容を投稿します（実際には送っていません）")
         print(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -326,8 +341,8 @@ def main():
     history["urls"] = (history.get("urls", []) + [i["url"] for i in items])[-HISTORY_LIMIT:]
     history["titles"] = (history.get("titles", []) +
                          [normalize_title(i["title"]) for i in items])[-HISTORY_LIMIT:]
-    if scheduled:
-        history["last_post_date"] = today.isoformat()
+    if daily:
+        history["last_post_date"] = post_day.isoformat()
     save_json(HISTORY_PATH, history)
 
 
