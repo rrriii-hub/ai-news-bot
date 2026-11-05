@@ -70,6 +70,16 @@ def normalize_title(t):
     return re.sub(r"[\s\W_]+", "", t.lower())
 
 
+def title_grams(t):
+    n = normalize_title(t)
+    return {n[i:i + 2] for i in range(len(n) - 1)}
+
+
+def is_similar(a, b, threshold=0.45):
+    """見出しの文字の並びがどれだけ重なっているか（同じ話題を別サイトが報じた記事をまとめるため）"""
+    return len(a & b) / max(1, min(len(a), len(b))) >= threshold
+
+
 def parse_date(s):
     if not s:
         return None
@@ -164,17 +174,20 @@ def collect(config, history):
         per_feed.append(fresh)
 
     # 各ソースから順番に1件ずつ取り、偏らないように選ぶ
-    picked, picked_titles = [], set()
+    # 同じ話題の記事（過去に流したものも含む）は1件だけにする
+    seen = [title_grams(t) for t in history.get("titles", [])]
+    picked = []
     count = config.get("count", 5)
     while len(picked) < count and any(per_feed):
         for queue in per_feed:
             while queue:
                 item = queue.pop(0)
-                key = normalize_title(item["title"])
-                if key in picked_titles:
+                grams = title_grams(item["title"])
+                duplicate = any(is_similar(grams, g) for g in seen)
+                seen.append(grams)
+                if duplicate:
                     continue
                 picked.append(item)
-                picked_titles.add(key)
                 break
             if len(picked) >= count:
                 break
