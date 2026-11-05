@@ -1,17 +1,37 @@
 {
-  "last_post_date": "",
+  "last_post_date": "2026-11-05",
   "urls": [
     "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uRmtjVENhV09NZFlYTEdaR1Q3OWRJUS05QUJobXVxZnBPLXdCNGd5V2pUNDNCa0c3VV9yVGY4WEk4ZVNfZHMwMzFFUTJ6QzlCdTJGN1hoZ2MzTVFBTGhleUdGTWFKdlpOeExRWnlYcDFyaEUweFh0bTZKbzhyUVE?oc=5",
     "https://monoist.itmedia.co.jp/mn/articles/2611/04/news064.html",
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fMEo3M0NNNENOT3U5VDlIMF82RHltaWtReW5LZDQ4MGNjU3YxQ09PVmlpUk41M0FKYm1Ca0xvSU13ZzJUT3QxRGhOY3BiMXV1SV9fVk9UWDlHeHJaZnlzTmY3aEpubWZIcy02ZmF3?oc=5"
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fMEo3M0NNNENOT3U5VDlIMF82RHltaWtReW5LZDQ4MGNjU3YxQ09PVmlpUk41M0FKYm1Ca0xvSU13ZzJUT3QxRGhOY3BiMXV1SV9fVk9UWDlHeHJaZnlzTmY3aEpubWZIcy02ZmF3?oc=5",
+    "https://kn.itmedia.co.jp/kn/article/2611/05/2000002770/",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5POFdRM0VLczV6ZzktajEyY0E1djBGMllWVmdnNmt1RXVKY1YzRHFZSW9MMWJKdW9JbE9MbXF6Y2UtS1l3SkZLTnoxdERfaV9QMmNWMmJmQUM3QQ?oc=5",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xcnRiVUZkNHdoN2ZYcVIwUy1TUWdZT0pLeUpuSlFLcEdWV0MxMXVsSThKSXhmSXd4b3BRLXB0V0xTYjNZNGNleFVCMXBVcVQxQjJXM2FFcUQ0NnJaaGFZOVF4VkZRdkRLQzBaalEzUDcyZGIySkhtTVZsWnlqQjg?oc=5",
+    "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yeTNCemlrZEFkMDVoeVdvbVZPVkh1azI2cWUxREpjTDVtbG5MclBua01oekFtVXd1OGdBeVpqWVNUQnN6Y0xMMUVsX21DUWd2NEJubUNvVDU0bmxr?oc=5",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FWlNUcEhJWkVsOW1wMUwyQ1BpM213Z2pWVlZ5NXlTcnlSZ3RPTEJnNzNIZ1BLY2Jydk1wQ0otUHdHMXZtU2JLZlc5eGp0TUs4LVN2b3NRR1ozQ2k5Y3FCMHBtNkh2eWRNZDI5SDRTZ21ZMXJoTnBSMWYzaDhaMmc?oc=5",
+    "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002903/",
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
+    "https://news.google.com/rss/articles/CBMickFVX3lxTFB3c083cjkzbUdaRjE3dS1vb2xFNGdMd0RtbVBSYm8xakpsYVRlc0FJN2J6cGlzeWhJR0VzZF9pUnJDQkQ4UXN2T3hfYS1kWEpYbWlrM3lEYXJJdnYtTlNlV1gxek0xc2YyaHFPVldqSTdiQQ?oc=5",
+    "https://www.itmedia.co.jp/news/article/2611/05/2000002894/"
   ],
   "titles": [
     "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
     "anthropicclaudecodeによるゲームの複製を制限",
     "openaiとマツダaiを活用した車両設計で共同研究impresswatch",
     "製造業の秘伝のタレはaiに奪われるのか競争力の源泉はどこにある",
-    "プロンプト一例を紹介生成aiで課題を洗い出し人の目で見極めるアナログ規制見直しの勘どころとは出前型合同説明会in奈良市"
+    "プロンプト一例を紹介生成aiで課題を洗い出し人の目で見極めるアナログ規制見直しの勘どころとは出前型合同説明会in奈良市",
+    "gpt6モデルはastrasolそれともlunaopenaiが教えるcodex爆速開発の鉄則",
+    "肘を正しく固定して生成aiがトレーニングのアドバイス高校生がaiの上手な使い方を学ぶ山形酒田市",
+    "aiでgifが作れるopenaiがimages26を発表最先端モデルに匹敵する中国ai無料公開もaiニュース3選リアルサウンド",
+    "世界最高水準の性能うたう翻訳llmをオープン化pfn0831bの4サイズオンデバイスにも対応",
+    "生成aiをどう使う学生教員職員が本音で語り合うニュース一覧",
+    "カーネルを最新セキュリティai",
+    "フジテレビ全ドラマでai活用できる体制へ2027年10月めど救命病棟２４時で先行導入",
+    "フジテレビドラマ制作に生成aiを積極導入27年には全ドラマ対応へ",
+    "脆弱性報告数が別次元にmythos一般公開を恐れる前に推奨される7つの優先対策もう一度読みたい対策見直しニュース",
+    "openaiimages26発表生成速度50向上gifアニメの生成も可能に"
   ]
 }
