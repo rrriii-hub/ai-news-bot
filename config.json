@@ -2,7 +2,7 @@
   "post_time_jst": "15:00",
   "count": 10,
   "summary": true,
-  "summary_model": "openai/gpt-4.1-mini",
+  "summary_model": "gemini-3.5-flash-lite",
   "max_age_hours": 36,
   "bot_name": "AIニュース速報",
   "avatar_url": "",
