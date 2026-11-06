@@ -1,5 +1,5 @@
 {
-  "last_post_date": "2026-11-05",
+  "last_post_date": "2026-11-06",
   "urls": [
     "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -15,7 +15,17 @@
     "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002903/",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
     "https://news.google.com/rss/articles/CBMickFVX3lxTFB3c083cjkzbUdaRjE3dS1vb2xFNGdMd0RtbVBSYm8xakpsYVRlc0FJN2J6cGlzeWhJR0VzZF9pUnJDQkQ4UXN2T3hfYS1kWEpYbWlrM3lEYXJJdnYtTlNlV1gxek0xc2YyaHFPVldqSTdiQQ?oc=5",
-    "https://www.itmedia.co.jp/news/article/2611/05/2000002894/"
+    "https://www.itmedia.co.jp/news/article/2611/05/2000002894/",
+    "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSUppVUVZcFVVSTYxbUlNbnRZRUpwVkpYbHdtb2JJZzREYTZaOGJSUnZZRWloal9tWi1zWFVTS05XRjhnZ1JwcUZBQWlYVTdzazBoOUs4WlhrT2kzTDNhYUtjOUZtdFRkNzAzdWZjLW5iVVl6RXZXQXQ1ay1EaTdKMVY4OEhTelhLLTZzVFd1VUluNTFJX0o4U05QNThzeGJEeE54eUg2cFluWi1KazJkVGxmbEhpT3Rva204T193?oc=5",
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vb1EyMWNVZlFCckZFTGNVMHhWRTRaTkdlMTFfSEF0U1RpTEZSUTR5YUJKZXVWSkVsaHpmMTYxN0NXVVVsaE9id3BOZHhjSUExZW14VXdKS25DbHNHeDAzUDM4Snk3R1RvV2xtZ21zeFdxQ25FeVRFQkFVd2c?oc=5",
+    "https://www.itmedia.co.jp/news/article/2611/06/2000002899/",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BaWRWcXg1VDRUaUc0aVVfRlRab3V3T2xwSDdXWFpCV0w3OHE0UGhYSktCRDdfUkVvZ2VSVXdiODhkZHE4VnZOdHVpcHo5UTBmclkyZlJpcWc3VUlpX0FhS25fdkt5eDdrM1QxbVNkNmd2aTNtMWdISU9ldDctZnc?oc=5",
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1UUJKdVkwZjVvdDJOZE92MXBRM2tKMUVPVkg2LUVyQy1Jc1ZGMk5DbXhycXZHQXJKOVpaQVNPZU5pTUJPbXFPN2Jyd241SDFpUGRGeWFnYl9ZLWhaTEJ4c1pqOA?oc=5",
+    "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002937/",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5naWY3bGhVS25penVFd3hIZzZBdDl0M25uYVNPSEJnUVRUMl9CWUdBUkY5MDhpNEtWOHFBT0k5bkVlTVZVNW5PR3FHZXNYTk1tYWtWQ2lSTGhaNDJVUDJLWnV6V1NINzA?oc=5",
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE0zUHRDdXg2Xy0yYktNa3JrVlducDBXalo5bXk4c1NzR2JVNENWQlUtaUVRay0tbm9mRUF6VmxKdGQxMVd3UXlHeGFtUi1fblNSMWp2ZkxSajFQZVNlQVAwNlVmcEg5OGt4Y1hZa1U4andxUQ?oc=5",
+    "https://www.itmedia.co.jp/news/article/2611/06/2000002939/"
   ],
   "titles": [
     "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -32,6 +42,16 @@
     "フジテレビ全ドラマでai活用できる体制へ2027年10月めど救命病棟２４時で先行導入",
     "フジテレビドラマ制作に生成aiを積極導入27年には全ドラマ対応へ",
     "脆弱性報告数が別次元にmythos一般公開を恐れる前に推奨される7つの優先対策もう一度読みたい対策見直しニュース",
-    "openaiimages26発表生成速度50向上gifアニメの生成も可能に"
+    "openaiimages26発表生成速度50向上gifアニメの生成も可能に",
+    "国内gpuサーバでオープンモデルを利用可能にフィックスターズが新サービスまずはdeepseekv41flash1017から",
+    "金融サービスチームと法務チーム向けの新しいgeminiコース",
+    "新世代のaipcnvidiartxsparkは誰のための製品なのか使ってわかるaipc",
+    "aiに自販機経営を1年任せてみた指示は利益の最大化だけ米ハーバード大などがシミュレーション",
+    "ヤフコメで話題生成ai利用の一貫性や規制に疑問広告やクリエイティブ現場でのai活用に賛否生成aiを巡る現場の混乱と意見の分断",
+    "nvidiagb300graceblackwellultradesktopsuperchip搭載aiスーパーコンピューターを導入",
+    "ピザーラアニメdrstoneのコラボcmに関して謝罪許諾なくai広告配信",
+    "手描きのモックアップからgeminiがコードを書いてアプリ化する機能",
+    "コードの9割をaiが作成anthropicがipo文書で明かしたai急加速と制御不能リスク12ページ",
+    "metaのaiエージェントmuseに音声対話機能表情豊かなアバターと会話まず米国で提供"
   ]
 }
