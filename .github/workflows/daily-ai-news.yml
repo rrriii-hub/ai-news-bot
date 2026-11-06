@@ -21,7 +21,6 @@ on:
 
 permissions:
   contents: write # 投稿済み履歴(posted.json)を保存するため
-  models: read # 「今日のまとめ」の文章をGitHubの無料AI（GitHub Models）で作るため
 
 concurrency:
   group: daily-ai-news # 同時に起動しても1つずつ順番に動かす（二重投稿防止）
@@ -43,7 +42,7 @@ jobs:
         run: python ai_news.py
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 「今日のまとめ」用（未登録ならニュースだけ投稿）
           RUN_MODE: ${{ inputs.mode }}
 
       - name: Save posted history
