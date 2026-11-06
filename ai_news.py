@@ -2,8 +2,9 @@
 
 環境変数:
   DISCORD_WEBHOOK_URL  投稿先チャンネルのWebhook URL（GitHub Actionsでは必須。手元で未設定なら表示だけ）
-  RUN_MODE=check       投稿せずに、Webhookの投稿先（チャンネル）だけ確認する
-  RUN_MODE=daily       毎日の定時投稿と同じ動き（1日1回だけ・投稿時刻まで待つ）。外部タイマーからの起動用
+  GITHUB_TOKEN         「今日のまとめ」の文章をGitHubの無料AI（GitHub Models）で作るため（Actionsでは自動で入る）
+  RUN_MODE=check       投稿せずに、投稿先チャンネルと投稿する中身（ニュース・まとめ）を確認する
+  RUN_MODE=daily       毎日の定時投稿と同じ動き（1日1回だけ・投稿時刻まで待つ）。手動での出し直しなどに
   DRY_RUN=1            投稿せずに結果を表示するだけ（お試し用）
 """
 import html
@@ -28,6 +29,12 @@ FETCH_UA = "Mozilla/5.0 (compatible; ai-news-discord-bot/1.0)"
 DISCORD_UA = "DiscordBot (https://github.com, 1.0)"
 WEBHOOK_RE = re.compile(
     r"^https://(?:(?:ptb|canary)\.)?discord(?:app)?\.com/api(?:/v\d+)?/webhooks/\d+/[\w-]+/?(?:\?.*)?$")
+MODELS_URL = "https://models.github.ai/inference/chat/completions"
+SUMMARY_TITLE = "📝 **今日のまとめ**"
+SUMMARY_PROMPT = """あなたはAIニュースの編集者です。渡されたニュースの見出しと概要だけをもとに、今日のAI業界の動きを日本語で軽くまとめてください。
+・2〜4文、全体で200字前後の自然な文章（です・ます調）
+・箇条書き、見出し、URL、絵文字は使わない
+・渡された内容に書かれていないことは書かない（推測や誇張をしない）"""
 
 
 # ---------- ユーティリティ ----------
@@ -195,6 +202,45 @@ def collect(config, history):
     return picked
 
 
+# ---------- 今日のまとめ ----------
+def make_summary(config, items):
+    """GitHubの無料AI（GitHub Models）で、選んだニュースを短い文章にまとめる。
+    作れないとき（手元で GITHUB_TOKEN がない・AIの混雑など）は None を返し、ニュースだけ投稿する"""
+    if not config.get("summary", True) or not items:
+        return None
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if not token:
+        print("[info] GITHUB_TOKEN がないので、まとめの文章は作りません（GitHub Actions 上では自動で作ります）")
+        return None
+    lines = []
+    for n, i in enumerate(items, 1):
+        lines.append(f"{n}. {i['title']}（{i['source']}）")
+        if i["desc"]:
+            lines.append(f"   {truncate(i['desc'], 200)}")
+    body = {
+        "model": config.get("summary_model", "openai/gpt-4.1-mini"),
+        "messages": [
+            {"role": "system", "content": SUMMARY_PROMPT},
+            {"role": "user", "content": "今日のAIニュース:\n" + "\n".join(lines)},
+        ],
+        "temperature": 0.3,
+        "max_tokens": 600,
+    }
+    req = urllib.request.Request(MODELS_URL, data=json.dumps(body).encode("utf-8"), headers={
+        "Authorization": f"Bearer {token}", "Content-Type": "application/json",
+        "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            text = json.load(r)["choices"][0]["message"]["content"].strip()
+    except urllib.error.HTTPError as e:
+        print(f"[warn] まとめの文章を作れませんでした ({e.code}): {e.read()[:300]!r}", file=sys.stderr)
+        return None
+    except Exception as e:  # まとめが作れなくてもニュースは投稿する
+        print(f"[warn] まとめの文章を作れませんでした: {e}", file=sys.stderr)
+        return None
+    return truncate(text, 1500) or None
+
+
 # ---------- Discord投稿 ----------
 def build_payload(config, items, today):
     embeds = []
@@ -222,6 +268,29 @@ def build_payload(config, items, today):
     return payload
 
 
+def build_summary_payload(config, summary):
+    payload = {
+        "username": config.get("bot_name", "AIニュース"),
+        "content": f"{SUMMARY_TITLE}\n{summary}",
+        "allowed_mentions": {"parse": []},
+    }
+    if config.get("avatar_url"):
+        payload["avatar_url"] = config["avatar_url"]
+    return payload
+
+
+def print_preview(payload, summary):
+    print(payload["content"])
+    for e in payload["embeds"]:
+        print(f"  {e['title']}（{e['footer']['text']}）")
+    if summary:
+        print(f"\n{SUMMARY_TITLE}\n{summary}")
+
+
+class DiscordError(Exception):
+    pass
+
+
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
     """転送（リダイレクト）は失敗扱いにする。招待リンクなどを登録したときに「成功」と誤判定しないため"""
     def redirect_request(self, *args, **kwargs):
@@ -244,9 +313,9 @@ def discord_request(url, payload=None):
                 time.sleep(5)
                 continue
             if e.code in (401, 404):
-                sys.exit("[error] Webhookが見つかりません。Discord側で削除されたか、URLが間違っています。"
-                         "README の②③をやり直してください。")
-            sys.exit(f"[error] Discordへの接続に失敗 ({e.code}): {e.read()[:300]!r}")
+                raise DiscordError("[error] Webhookが見つかりません。Discord側で削除されたか、URLが間違っています。"
+                                   "README の②③をやり直してください。")
+            raise DiscordError(f"[error] Discordへの接続に失敗 ({e.code}): {e.read()[:300]!r}")
 
 
 def check_webhook(webhook):
@@ -267,7 +336,7 @@ def post_discord(webhook, payload):
     sep = "&" if "?" in webhook else "?"
     msg = discord_request(f"{webhook}{sep}wait=true", payload)
     if not isinstance(msg, dict) or not msg.get("id"):
-        sys.exit("[error] Discordから投稿結果が返ってきませんでした")
+        raise DiscordError("[error] Discordから投稿結果が返ってきませんでした")
     return msg
 
 
@@ -295,33 +364,31 @@ def main():
     mode = os.environ.get("RUN_MODE", "")
     in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
     dry_run = os.environ.get("DRY_RUN") == "1" or (not webhook and not in_actions)
+    check_only = mode == "check"
     info = {}
     if not dry_run:
         if not webhook:
             sys.exit("[error] DISCORD_WEBHOOK_URL が登録されていません（README の③）")
-        info = check_webhook(webhook)
-        if mode == "check":
-            print("[info] 接続チェックOK（チェックだけなので投稿はしていません）")
-            return
+        try:
+            info = check_webhook(webhook)
+        except DiscordError as e:
+            sys.exit(str(e))
 
-    # 毎日の定時投稿（GitHubの定時実行、または外部タイマーからの mode=daily）は1日1回だけ。
-    # 投稿時刻の少し前に起動し、時刻ちょうどまで待ってから投稿する
+    # 毎日の定時投稿（GitHubの定時実行、または mode=daily）は1日1回だけ。
+    # 投稿時刻の少し前に起動したら、ニュースとまとめを用意してから時刻ちょうどまで待って投稿する
     daily = os.environ.get("GITHUB_EVENT_NAME") == "schedule" or mode == "daily"
     now = datetime.now(JST)
     post_day = now.date()
+    target = None
     if daily:
         target = nearest_post_time(config, now)
         post_day = target.date()
-        wait = (target - now).total_seconds()
         if history.get("last_post_date") == post_day.isoformat():
             print(f"[info] {post_day:%m/%d} の分はもう投稿済みなのでスキップします")
             return
-        if wait > 40 * 60:
+        if (target - now).total_seconds() > 40 * 60:
             print(f"[info] 投稿時刻（{target:%m/%d %H:%M}）の40分以上前なので、何もせずに終わります")
             return
-        if wait > 0:
-            print(f"[info] {target:%H:%M} まで {int(wait)} 秒待ちます")
-            time.sleep(wait)
 
     items = collect(config, history)
     if not items:
@@ -329,12 +396,23 @@ def main():
         return
 
     payload = build_payload(config, items, post_day)
-    if dry_run:
-        print("[dry-run] 以下の内容を投稿します（実際には送っていません）")
-        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    summary = make_summary(config, items)
+    if dry_run or check_only:
+        print("[dry-run] 以下の内容を投稿します（実際には送っていません）" if dry_run else
+              "[check] 接続チェックOK。以下は確認用の表示で、投稿はしていません")
+        print_preview(payload, summary)
         return
 
-    msg = post_discord(webhook, payload)
+    if target:
+        wait = (target - datetime.now(JST)).total_seconds()
+        if wait > 0:
+            print(f"[info] {target:%H:%M} まで {int(wait)} 秒待ちます")
+            time.sleep(wait)
+
+    try:
+        msg = post_discord(webhook, payload)
+    except DiscordError as e:
+        sys.exit(str(e))
     print(f"[info] {len(items)}件を投稿しました → https://discord.com/channels/"
           f"{info.get('guild_id')}/{msg.get('channel_id')}/{msg['id']}")
 
@@ -344,6 +422,13 @@ def main():
     if daily:
         history["last_post_date"] = post_day.isoformat()
     save_json(HISTORY_PATH, history)
+
+    if summary:
+        try:
+            post_discord(webhook, build_summary_payload(config, summary))
+            print("[info] 今日のまとめを投稿しました")
+        except Exception as e:  # まとめが送れなくても、ニュースの投稿と記録は済んでいる
+            print(f"[warn] まとめの投稿に失敗しました: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
