@@ -2,7 +2,7 @@
 
 環境変数:
   DISCORD_WEBHOOK_URL  投稿先チャンネルのWebhook URL（GitHub Actionsでは必須。手元で未設定なら表示だけ）
-  GITHUB_TOKEN         「今日のまとめ」の文章をGitHubの無料AI（GitHub Models）で作るため（Actionsでは自動で入る）
+  GEMINI_API_KEY       「今日のまとめ」の文章をGoogleのAI（Gemini API・無料枠）で作るため。未登録ならニュースだけ投稿
   RUN_MODE=check       投稿せずに、投稿先チャンネルと投稿する中身（ニュース・まとめ）を確認する
   RUN_MODE=daily       毎日の定時投稿と同じ動き（1日1回だけ・投稿時刻まで待つ）。手動での出し直しなどに
   DRY_RUN=1            投稿せずに結果を表示するだけ（お試し用）
@@ -29,7 +29,7 @@ FETCH_UA = "Mozilla/5.0 (compatible; ai-news-discord-bot/1.0)"
 DISCORD_UA = "DiscordBot (https://github.com, 1.0)"
 WEBHOOK_RE = re.compile(
     r"^https://(?:(?:ptb|canary)\.)?discord(?:app)?\.com/api(?:/v\d+)?/webhooks/\d+/[\w-]+/?(?:\?.*)?$")
-MODELS_URL = "https://models.github.ai/inference/chat/completions"
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 SUMMARY_TITLE = "📝 **今日のまとめ**"
 SUMMARY_PROMPT = """あなたはAIニュースの編集者です。渡されたニュースの見出しと概要だけをもとに、今日のAI業界の動きを日本語で軽くまとめてください。
 ・2〜4文、全体で200字前後の自然な文章（です・ます調）
@@ -204,13 +204,13 @@ def collect(config, history):
 
 # ---------- 今日のまとめ ----------
 def make_summary(config, items):
-    """GitHubの無料AI（GitHub Models）で、選んだニュースを短い文章にまとめる。
-    作れないとき（手元で GITHUB_TOKEN がない・AIの混雑など）は None を返し、ニュースだけ投稿する"""
+    """GoogleのAI（Gemini API の無料枠）で、選んだニュースを短い文章にまとめる。
+    作れないとき（GEMINI_API_KEY が未登録・AIの混雑など）は None を返し、ニュースだけ投稿する"""
     if not config.get("summary", True) or not items:
         return None
-    token = os.environ.get("GITHUB_TOKEN", "").strip()
-    if not token:
-        print("[info] GITHUB_TOKEN がないので、まとめの文章は作りません（GitHub Actions 上では自動で作ります）")
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not key:
+        print("[info] GEMINI_API_KEY が登録されていないので、まとめの文章は付けません（README の⑤）")
         return None
     lines = []
     for n, i in enumerate(items, 1):
@@ -218,27 +218,30 @@ def make_summary(config, items):
         if i["desc"]:
             lines.append(f"   {truncate(i['desc'], 200)}")
     body = {
-        "model": config.get("summary_model", "openai/gpt-4.1-mini"),
-        "messages": [
-            {"role": "system", "content": SUMMARY_PROMPT},
-            {"role": "user", "content": "今日のAIニュース:\n" + "\n".join(lines)},
-        ],
-        "temperature": 0.3,
-        "max_tokens": 600,
+        "systemInstruction": {"parts": [{"text": SUMMARY_PROMPT}]},
+        "contents": [{"role": "user", "parts": [{"text": "今日のAIニュース:\n" + "\n".join(lines)}]}],
     }
-    req = urllib.request.Request(MODELS_URL, data=json.dumps(body).encode("utf-8"), headers={
-        "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-        "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"})
+    model = urllib.parse.quote(config.get("summary_model", "gemini-3.5-flash-lite"), safe="-._")
+    req = urllib.request.Request(GEMINI_URL.format(model=model), data=json.dumps(body).encode("utf-8"),
+                                 headers={"x-goog-api-key": key, "Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            text = json.load(r)["choices"][0]["message"]["content"].strip()
+        with urllib.request.urlopen(req, timeout=90) as r:
+            res = json.load(r)
     except urllib.error.HTTPError as e:
         print(f"[warn] まとめの文章を作れませんでした ({e.code}): {e.read()[:300]!r}", file=sys.stderr)
         return None
     except Exception as e:  # まとめが作れなくてもニュースは投稿する
         print(f"[warn] まとめの文章を作れませんでした: {e}", file=sys.stderr)
         return None
-    return truncate(text, 1500) or None
+    try:  # 考え中のメモ（thought）は除いて、本文だけをつなげる
+        parts = res["candidates"][0]["content"]["parts"]
+        text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
+    except (KeyError, IndexError, TypeError, AttributeError):
+        text = ""
+    if not text:
+        print(f"[warn] まとめの文章が空でした: {json.dumps(res, ensure_ascii=False)[:300]}", file=sys.stderr)
+        return None
+    return truncate(text, 1500)
 
 
 # ---------- Discord投稿 ----------
