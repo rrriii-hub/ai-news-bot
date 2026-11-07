@@ -1,5 +1,5 @@
 {
-  "last_post_date": "2026-11-06",
+  "last_post_date": "2026-11-07",
   "urls": [
     "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -25,7 +25,17 @@
     "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002937/",
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5naWY3bGhVS25penVFd3hIZzZBdDl0M25uYVNPSEJnUVRUMl9CWUdBUkY5MDhpNEtWOHFBT0k5bkVlTVZVNW5PR3FHZXNYTk1tYWtWQ2lSTGhaNDJVUDJLWnV6V1NINzA?oc=5",
     "https://news.google.com/rss/articles/CBMickFVX3lxTE0zUHRDdXg2Xy0yYktNa3JrVlducDBXalo5bXk4c1NzR2JVNENWQlUtaUVRay0tbm9mRUF6VmxKdGQxMVd3UXlHeGFtUi1fblNSMWp2ZkxSajFQZVNlQVAwNlVmcEg5OGt4Y1hZa1U4andxUQ?oc=5",
-    "https://www.itmedia.co.jp/news/article/2611/06/2000002939/"
+    "https://www.itmedia.co.jp/news/article/2611/06/2000002939/",
+    "https://kn.itmedia.co.jp/kn/article/2611/07/2000002951/",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE95d2Y2UjRlZWo1eUw1cHZvTTg0MjJXTXJ1cU41RjFlM2NGVXVpeVpJYUhFelpkMFJFbVFseEZvYmdTODNiNVBuN0MwT0hjQ05fZ2NGRVdSR1J2OTBUVHNmRDM2OUpfdzFtVkVVZWIzRzlrMXVJbS1EZEJENGZ3cjQ?oc=5",
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iVGd0RGY2eW5aMUhhQ2syR2YxVXBwTGxFQTkteWFBTVQ0OHdpdHZIeExlcHBra3ZKLTIyWF94dk9PVWhHZzl4bkRxUlR0bUlKUkpJVnNqbWVUSFdKX2RZVkpiZVpxZEZqaGJOeg?oc=5",
+    "https://kn.itmedia.co.jp/kn/article/2611/07/2000002948/",
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hR3A4TE9tYkNTZm0yY3JHaUJ3RWQ3Q0R0VENScjRVZ0xNNkNhcllYU2ZaNURVaEhNRlZSY0hGY1JEckFUYTJwTTRnSmFHcHpwU1VpU2N2cG9lUDhOZTlnOW42NkdRSDBW?oc=5",
+    "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13UXM0dHAwZUJIc2dnbkF3R1RNR1FyM2VGRVgxYmdSblRGR3VpaEZYZmM2RUNfaTJ4MDVXNlZ4VjEzUEZlTWRXb3VZSXZDczA?oc=5",
+    "https://kn.itmedia.co.jp/kn/article/2611/07/2000002945/",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lakdxaE5yX1NhdTViampJdEZkd1pqaGxoWFMtUlFTZTl1Z3lPcFBrOGJMOFI3M1ZNMDh4ZHVMcENJczVybWhJVE16UTAzM2pLLVQ3Ri0zcUFfUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTG00SGY1bm5rUUxOemdQcVpFcGlwWW9vWkU0WlZQU29CekhpN1d3b3dUSGswc1NSbEJUOEt6MHNaQnZLd0hOVmszRGtHWGl3UlpiTGRZcDNDQmE0Zy1aWEVpLTZaVWM2MWQzMy1Xdkt0UzllMUFOdWh6NWI2QjV0QWFuR1JQWU1ucGZpTFVvMXhWaFZhN0xiZ1ZmQ3J4d3RaYThKNXBNQ3U?oc=5",
+    "https://monoist.itmedia.co.jp/mn/articles/2611/06/news072.html"
   ],
   "titles": [
     "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -52,6 +62,16 @@
     "ピザーラアニメdrstoneのコラボcmに関して謝罪許諾なくai広告配信",
     "手描きのモックアップからgeminiがコードを書いてアプリ化する機能",
     "コードの9割をaiが作成anthropicがipo文書で明かしたai急加速と制御不能リスク12ページ",
-    "metaのaiエージェントmuseに音声対話機能表情豊かなアバターと会話まず米国で提供"
+    "metaのaiエージェントmuseに音声対話機能表情豊かなアバターと会話まず米国で提供",
+    "ai面接を導入したのに応募者情報は手入力採用現場の二度手間を解消へ",
+    "複雑な分析はclaudeで事務はchatgpt専門家が教えるai使い分けの極意",
+    "openaiが17兆円調達ai逆風で目標額引き下げ米報道",
+    "chatgptの回答にリンクがない見られていない実は違うaiの情報収集",
+    "google学校の生徒向けに検索とgeminiを初期設定で無効へ検索内のaiは切り離せず米教育現場で懸念",
+    "米googleがビットコインマイナーのaiデータセンター信用支援anthropicに賃借",
+    "aiで営業は効率化したでもなぜ売れない成果を出す人が大切にしていること",
+    "企業の業務改善に役立てて生成aiなど最新it技術に触れるイベント岡山岡山香川のニュース天気rsk山陽放送",
+    "openaiのipoについて知っておくべき重要事項",
+    "2d図面をaiで3dモデル化編集可能なフィーチャー履歴も再構築"
   ]
 }
