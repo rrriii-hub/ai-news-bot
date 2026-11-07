@@ -5,13 +5,14 @@ on:
     # 14:45 JST に起動 → スクリプトが 15:00 JST まで待ってから投稿
     # GitHubの定時実行は混雑すると遅れたり、実行されなかったりすることがあるため、
     # 16:17 と 18:47 にも予備で起動します（その日の分が投稿済みなら何もしません）
+    # 時間どおりに届けるには、README の⑥の「目覚まし」（ai-news-timer.yml）も使ってください
     - cron: "45 5 * * *"
     - cron: "17 7 * * *"
     - cron: "47 9 * * *"
   workflow_dispatch: # 「Run workflow」ボタンで手動実行できる
     inputs:
       mode:
-        description: "post = 今すぐ投稿 / check = 投稿せずに投稿先と中身を確認 / daily = 今日の分がまだなら投稿（15時の40分前より早いと何もしない）"
+        description: "post = 今すぐ投稿 / check = 投稿せずに投稿先と中身を確認 / daily = 今日の分がまだなら投稿（15時の65分前より早いと何もしない）"
         type: choice
         options:
           - post
@@ -28,7 +29,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 80 # 投稿時刻の最大65分前に起動して待つことがあるため
     steps:
       - uses: actions/checkout@v4
         with:
