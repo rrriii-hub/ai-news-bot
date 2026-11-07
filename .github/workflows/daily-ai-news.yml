@@ -42,11 +42,14 @@ jobs:
       - name: Post AI news to Discord
         run: python ai_news.py
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }} # AIチャンネル
+          DISCORD_WEBHOOK_URL_POLITICS: ${{ secrets.DISCORD_WEBHOOK_URL_POLITICS }} # 政治チャンネル（未登録なら飛ばす）
+          DISCORD_WEBHOOK_URL_WORLD: ${{ secrets.DISCORD_WEBHOOK_URL_WORLD }} # 世界情勢チャンネル（未登録なら飛ばす）
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 「今日のまとめ」用（未登録ならニュースだけ投稿）
           RUN_MODE: ${{ inputs.mode }}
 
       - name: Save posted history
+        if: always() # 一部のチャンネルで失敗しても、投稿できた分の記録は保存する（二重投稿防止）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
