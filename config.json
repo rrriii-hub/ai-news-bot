@@ -4,23 +4,69 @@
   "summary": true,
   "summary_model": "gemini-3.5-flash-lite",
   "max_age_hours": 36,
-  "bot_name": "AIニュース速報",
   "avatar_url": "",
-  "header": "📰 **今日の主要AIニュース**（{date}）",
-  "color": 5793266,
-  "exclude_words": ["セミナー", "ウェビナー", "キャンペーン", "募集", "PR TIMES", "プレスリリース", "株価", "【PR】"],
-  "feeds": [
+  "channels": [
     {
-      "name": "ITmedia AI+",
-      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+      "name": "AI",
+      "webhook_secret": "DISCORD_WEBHOOK_URL",
+      "bot_name": "AIニュース速報",
+      "header": "📰 **今日の主要AIニュース**（{date}）",
+      "summary_topic": "AI業界",
+      "color": 5793266,
+      "exclude_words": ["セミナー", "ウェビナー", "キャンペーン", "募集", "PR TIMES", "プレスリリース", "株価", "【PR】"],
+      "feeds": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+        },
+        {
+          "name": "Googleニュース（生成AI）",
+          "google_news": "生成AI OR ChatGPT OR Gemini OR Claude"
+        },
+        {
+          "name": "Googleニュース（AI企業）",
+          "google_news": "OpenAI OR Anthropic OR \"Google DeepMind\" OR \"Microsoft AI\" OR NVIDIA AI"
+        }
+      ]
     },
     {
-      "name": "Googleニュース（生成AI）",
-      "google_news": "生成AI OR ChatGPT OR Gemini OR Claude"
+      "name": "政治",
+      "webhook_secret": "DISCORD_WEBHOOK_URL_POLITICS",
+      "bot_name": "政治ニュース",
+      "header": "🏛️ **今日の主要な政治ニュース**（{date}）",
+      "summary_topic": "日本の政治",
+      "color": 15105570,
+      "exclude_words": ["PR TIMES", "プレスリリース", "【PR】", "セミナー", "ウェビナー"],
+      "feeds": [
+        {
+          "name": "Googleニュース（国会・政党）",
+          "google_news": "国会 OR 首相 OR 内閣 OR 自民党 OR 立憲民主党 OR 与党 OR 野党 OR 衆院 OR 参院"
+        },
+        {
+          "name": "Googleニュース（政府・選挙）",
+          "google_news": "閣議決定 OR 官房長官 OR 法案 OR 補正予算 OR 知事選 OR 市長選 OR 衆院選 OR 参院選"
+        }
+      ]
     },
     {
-      "name": "Googleニュース（AI企業）",
-      "google_news": "OpenAI OR Anthropic OR \"Google DeepMind\" OR \"Microsoft AI\" OR NVIDIA AI"
+      "name": "世界情勢",
+      "webhook_secret": "DISCORD_WEBHOOK_URL_WORLD",
+      "bot_name": "世界情勢ニュース",
+      "header": "🌏 **今日の世界情勢**（{date}）",
+      "summary_topic": "世界情勢",
+      "color": 3447003,
+      "exclude_words": ["PR TIMES", "プレスリリース", "【PR】", "セミナー", "ウェビナー"],
+      "feeds": [
+        {
+          "name": "Googleニュース（国際）",
+          "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=ja&gl=JP&ceid=JP:ja",
+          "keep_order": true
+        },
+        {
+          "name": "Googleニュース（外交・紛争）",
+          "google_news": "国際情勢 OR 外交 OR 首脳会談 OR 国連 OR 紛争 OR 停戦 OR 制裁"
+        }
+      ]
     }
   ]
 }
