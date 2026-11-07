@@ -1,0 +1,27 @@
+name: AI News Timer
+
+# 約1時間ごとにBotの様子を見に行く「目覚まし」です（GitHubの定時実行が遅れる対策）
+# 使うには README の⑥のとおり、Settings → Environments に「news-timer」を作り、Wait timer を 55 分にしてください
+on:
+  workflow_dispatch: # 目覚ましを動かし始めるときと、目覚ましが次の目覚ましをセットするときに使う
+  schedule:
+    - cron: "23 */6 * * *" # 目覚ましが止まってしまったときの再スタート用（動いていれば何もしない）
+
+permissions:
+  actions: write # Botと次の目覚ましを起動するため
+  contents: read
+
+jobs:
+  hop:
+    runs-on: ubuntu-latest
+    environment: news-timer # ここで約55分待つ（待っている間はGitHubの実行時間を使いません）
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }} # 最新の投稿履歴を読む
+
+      - name: Wake the bot near post time and set the next timer
+        run: python3 timer_hop.py
+        env:
+          GH_TOKEN: ${{ github.token }}
