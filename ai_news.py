@@ -389,8 +389,8 @@ def main():
         if history.get("last_post_date") == post_day.isoformat():
             print(f"[info] {post_day:%m/%d} の分はもう投稿済みなのでスキップします")
             return
-        if (target - now).total_seconds() > 40 * 60:
-            print(f"[info] 投稿時刻（{target:%m/%d %H:%M}）の40分以上前なので、何もせずに終わります")
+        if (target - now).total_seconds() > 65 * 60:
+            print(f"[info] 投稿時刻（{target:%m/%d %H:%M}）の65分以上前なので、何もせずに終わります")
             return
 
     items = collect(config, history)
