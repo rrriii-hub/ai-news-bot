@@ -373,7 +373,8 @@ def load_history():
     if "channels" not in h:
         old = {"last_post_date": h.get("last_post_date", ""),
                "urls": h.get("urls", []), "titles": h.get("titles", [])}
-        h = {"last_post_date": old["last_post_date"], "channels": {"AI": old} if old["urls"] else {}}
+        h = {"last_post_date": old["last_post_date"],
+             "channels": {"AI": old} if (old["urls"] or old["last_post_date"]) else {}}
     return h
 
 
@@ -394,12 +395,9 @@ def main():
     now = datetime.now(JST)
     post_day = now.date()
     target = None
-    if daily:
+    if daily:  # 投稿済みかどうかはチャンネルごとに判断する（あとから足したチャンネルも、その日のうちに出せる）
         target = nearest_post_time(config, now)
         post_day = target.date()
-        if history.get("last_post_date") == post_day.isoformat():
-            print(f"[info] {post_day:%m/%d} の分はもう投稿済みなのでスキップします")
-            return
         if (target - now).total_seconds() > 65 * 60:
             print(f"[info] 投稿時刻（{target:%m/%d %H:%M}）の65分以上前なので、何もせずに終わります")
             return
