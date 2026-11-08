@@ -1,8 +1,8 @@
 {
-  "last_post_date": "2026-11-07",
+  "last_post_date": "2026-11-08",
   "channels": {
     "AI": {
-      "last_post_date": "2026-11-07",
+      "last_post_date": "2026-11-08",
       "urls": [
         "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -38,7 +38,17 @@
         "https://kn.itmedia.co.jp/kn/article/2611/07/2000002945/",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lakdxaE5yX1NhdTViampJdEZkd1pqaGxoWFMtUlFTZTl1Z3lPcFBrOGJMOFI3M1ZNMDh4ZHVMcENJczVybWhJVE16UTAzM2pLLVQ3Ri0zcUFfUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTG00SGY1bm5rUUxOemdQcVpFcGlwWW9vWkU0WlZQU29CekhpN1d3b3dUSGswc1NSbEJUOEt6MHNaQnZLd0hOVmszRGtHWGl3UlpiTGRZcDNDQmE0Zy1aWEVpLTZaVWM2MWQzMy1Xdkt0UzllMUFOdWh6NWI2QjV0QWFuR1JQWU1ucGZpTFVvMXhWaFZhN0xiZ1ZmQ3J4d3RaYThKNXBNQ3U?oc=5",
-        "https://monoist.itmedia.co.jp/mn/articles/2611/06/news072.html"
+        "https://monoist.itmedia.co.jp/mn/articles/2611/06/news072.html",
+        "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tUHV3NktrX2prZEkwSm9MME9WVmlrbE5MUW5BRFloU0k4a1hkbjU3Z1ZEWWFhX2VtU2xvWXByVnFzWXRTNTlfNl8xdmxnZk04WElN?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0bUppb3pnSXJaRXZjLTFRVjUyN2FLYjlBRTJlRzFMd3plclY2b2Vtbm9sY3pxNU5DaFhCRHJNenNtUms3TTN5eGVLZUxkZXlfb3N5dVJ3YmZIamRFZWFOYXNOUWYxOFpqOFE?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZkp5UDNkNHJPdUd1WjdxcExhLUM5TkMtWTBHSmY3YUJKR2xydHhPRWtGZHJPN2pmNlRyaGVFYmt2ckJOUnZEYThHWnZxSmF4S1I0c2I2Ujg1a2xDekRtOGVMQjVpWEhqQ2xGSG01WTFGRUJkdzZtVEd6QjdJZTl1YmhlbUhiaE1Ya1BwS1lGTnpjUDJW?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVJ4QUJIdVN1MWRCUDRWdmt0LVE2MEFmTGFNblV4ZUhCWXZuSFNqQnlZZ0djRXJtdFBZTFBaWV9vallLcGI1WTV1cmQ4c3dXZHZRQVRBWmhuZVRlU2JBR1lZZC1oMm55WEhPV3pEUkxJNTdNbmtpVmJDdjkwMlgyZ0tLaVJXVHMw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1udVAyTHE2OE9RNmRkOFNqdzFWeTQwU2dsZGlvVFZRVS1faWZQSWtWUUVJNTE4amhmcWlHVzhEdnNPcTZHQnlhUmRSLVZuVkV6NWY3LXRzb2xQVE9aN1pPNS1rVVFqVjYzQVlFdWRQZFpHcXN5SW8xMUhad21RMlk?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yUFo1dE1IUWYycjhPNXpkSTJBWTNCLXBzLXNwYU5UQjlySFB0T2JuX3gtczh6WkRETDViZENrcWUzZUx1Y1poRXF3RE1mcEY1aUoyaGJMOGM1Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41MjRtS1lNWGgyendKRTQzOVBfRjQtczFqbklmZC03TUVreEpacGhqYVJzOFhiQmxJZXhtVWpUVUR3d1k0NGtmYkh4SG1aOTBUR2tZY1ZYeWVmdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiM29ETEhRcnpLY245RjhMblhDajhhaDUxbENnV1FyRzVDemQtcFpFVnFpNG41YTVFNE9rTTc3LWh6S0tWdzlhVXpXNllvYzg4NHhRbNIBVEFVX3lxTFBiM29ETEhRcnpLY245RjhMblhDajhhaDUxbENnV1FyRzVDemQtcFpFVnFpNG41YTVFNE9rTTc3LWh6S0tWdzlhVXpXNllvYzg4NHhRbA?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xVGFBODhOVzVhRG9VY3N1VG8tMjNPZjNJdkhWQUM3clpyZXZsd3FmcUIxS0xmVWViYzJYNXUyYjUtZzVRY0ZjOWxGLTQ3MnR1dGc?oc=5"
       ],
       "titles": [
         "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -75,11 +85,21 @@
         "aiで営業は効率化したでもなぜ売れない成果を出す人が大切にしていること",
         "企業の業務改善に役立てて生成aiなど最新it技術に触れるイベント岡山岡山香川のニュース天気rsk山陽放送",
         "openaiのipoについて知っておくべき重要事項",
-        "2d図面をaiで3dモデル化編集可能なフィーチャー履歴も再構築"
+        "2d図面をaiで3dモデル化編集可能なフィーチャー履歴も再構築",
+        "図解ありマルチエージェント設計15のパターンgithubgooglesiemensの知見を一気に整理",
+        "googleがgemini4argon採用の脆弱性修正aiエージェントcodemenderを強化",
+        "php2shell今知っておくべきことと今後への備え",
+        "pixel11gemininano4プレビューついに展開",
+        "openaiがサイバー特化の新aiを限定公開リスク区分は極めて重大にmasumiライターエキスパート",
+        "生成aiによる自動電話ロボコールはなぜ嫌われるのか回数の多さだけではないリアルタイムで受け答えされてもニュアンスが通じないマネーポストweb",
+        "uaeのアブダビ国営石油会社がopenaiと提携地中にある原油の価値をaiで評価人間の監督が焦点",
+        "アンソロピック1人バイオテックを買収claudeで11研究所との業務を調整",
+        "犯罪者サーバーからai脱獄ツール発見openaiのcodex改ざん回答に勝手な広告挿入する新手の罠",
+        "claudeの性能向上ペース約2倍に加速aiを使ってaiを開発が要因か"
       ]
     },
     "政治": {
-      "last_post_date": "2026-11-07",
+      "last_post_date": "2026-11-08",
       "urls": [
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWVdwQjJoTGRVdkw2UFFoZXZyUkQ5VElmVEJ2SllzQkRIUlJDMUxWMGVxcjJoX2k5VGh1ekN4TmM5ejJvRWZWZVNOMU1SUHRzQzJDVkVPME82LS1WMDdpeFpvNzllMnM?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBONjVlQTdncUtCa2pGNk1DbGJkQU93SmhyQnJwTlI3Y0hVWHAzWE9mVGNCb0tvVmNZaTFqNE5mUjBXajN0NEtBNnRtMWl4TkJNQ1NvVUN4QVlWY1J6UFVjSXJBUmpSajA?oc=5",
@@ -90,7 +110,17 @@
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uVWR1LTBNQ3RIYjk1RlllQWpLZmt3djI5X0MyQmlIT3piY2VjZXhTM1VNMlNXblBYQnM1SzI4aFlKRk9Lc2ROLU1rSW5xVmVWY2lHd1VyOGE5OXRmNmdrLU4zOA?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QM3ZTM2RkcVVkaS0teDY5dkVBb2dpeGRNbUFFVlZ2S3RHVUhpZVo2Mmt1eWVZTmpSSU5IS2IzMlFPLUdsc2dlRGVFaFN3SzdzTnROdg?oc=5",
         "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ldDdITUMzQ1VmVmlRZURVcWFoak5WZE13Rkpqc3UydlZKTGM4Q2pyazZFak81bllHWmoxQS1veEtzT0lkWnB4T29SUjQ4eTAxRkRzekRHSUVzRkYybDJvSE1tSTR3YmthX2U4NUhuTTFOX0U?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMOWxiNnNRdWFvbzEyMFZ6SWZuOHBuTXhVc3IxdnRzTnhOSkJ2eVZ0QU9iMkh1cVFMNjlHMFNpVE51UmlCZWlZempvM1MwSzdrbTNn?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMOWxiNnNRdWFvbzEyMFZ6SWZuOHBuTXhVc3IxdnRzTnhOSkJ2eVZ0QU9iMkh1cVFMNjlHMFNpVE51UmlCZWlZempvM1MwSzdrbTNn?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YVWo0NGtVODNhSnB2UVg5OFhiY19jQWtWZkFXRzAwSnZncGItTjZubVpCMmJoZ2xRdXFmV01qcm9XVzdkR25TRU5OSmlrMVphTzhHV2V0YkdvaWt0WkxlQTh6TTVUT2c?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdmhkSmZsMTN0VHZGbjFyb0hOMjgzYlg5MjJ2Rmp5dXVFVW5CekdwSWdteEhDMFhMRHBmRHQxSy1nbWhvcHktS3VuXzVMSzlzdUdISm1BOFVCbWc0dWo5cW92eV8zQVVCWk1IYmZ2QVk0Y0x5QkVEaDJXcndfaWduakFQM3I?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rQ1N3aTlYakZ4QlF4S0MxLUU2WHBxLXNReXJ5TGl4aVJKQkxMRW1wUWFOb05QbzdqYnpabnhPeWJoWnViazlDM2tVM2Fla2J1cW9GUnQ1czJsTk5zeGt5VnVVbw?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE85WkJIeVZBNURyeElEVURscEp0bG9qSHVsWFFXYTJEYS1udkxwNE81bXlvUzFOb1NaV28yV3pscG80RDdqZjNZZGxXYmZPRU9fTzBJV3lHdFV5N1VsOW9GVXhoSEhVZ3VIY1hTS1VrNnRsQm8?oc=5",
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6NlhqQkpTd2dreDI4RjVfaURpOFhNVXQ1UC1XQS1ZVnJPbmdVMHBLM2ozMVVhVENRdm5MLVdaUjhNTExTUldXY0FuUUw0emhHeEJuTlc1b3E4b21oNkhVbA?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15TnRjWFFBMmZFREpxUXlaaGJHSTRJV0dody00bVAyaEl2a3AxWHFGc1VZSVZGVjJaeDJuZE9kdjh3c1NTZkJzYmgyVXZwV3pPczI1T1d3bXh1Ylo4VC1VQWlxZ3dOZXc?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NUVo4MXRvS2dUVGV2ZTFDUktqbk5wRm9CM2d2dG5wVTVoX0dVb2UwSFRFQ2dZN21HVFNhUHFiZ3RNZU42Q2tHdWlWNTdNaFNPZnZ2NGtXc1l0dw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1salpkV2tyYWNxYnY5WFFnS1J0cHhIUHQzcVdGaHhkYlhjSjlBMTBObmxIYTd4MmlRM3UwMWwyYW9NYVRSUTVNSUt4UnhueTM1Q0Fj?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pOVlJRFE5OTMyS25LSFhOeTg0SGdMU21vZDlvSXNVMEVwRnZ5TEpDY0k0MTVKN2Z4c2FHUHpsZzBmbDUzaV85SU8zelJJV3Fvd05sTDREUnRRYXo3ZF9lQlhnMmkwdllX?oc=5"
       ],
       "titles": [
         "静かに進む国難に高市首相はどう挑む人口減少社会への処方箋は高市早苗首相自民党総裁消滅可能性自治体",
@@ -102,11 +132,21 @@
         "消費減税本丸参院へ公国の協力なお見えず時事ドットコム",
         "知事選は不戦敗市長選も推薦候補3連敗自民党滋賀県連が検証チーム設置統一選へ立て直し急ぐ",
         "消費減税法案が衆院通過全野党が反対石破前総理ら自民4人が採決退席",
-        "ひたちなか市長選あす告示無投票か"
+        "ひたちなか市長選あす告示無投票か",
+        "イスラエル大統領野党党首に組閣指示へ反ネタニヤフ陣営結集へ連立交渉時事ドットコム",
+        "松山市長選挙が告示3人が届け出知事とのダブル選15日投開票愛媛県",
+        "イスラエル大統領野党党首に組閣指示する考え連立協議は難航予想2026年11月7日掲載日テレnewsnnn",
+        "急進左派市長選でも躍進ｎｙに続き首都やロスでも米時事ドットコム",
+        "自民党消費減税法案棄権の4議員に処分検討9日正午までに退席理由の説明を",
+        "松山市長選告示新人３人が立候補届け出午前９時現在",
+        "自民石破前首相らに文書で説明要請退席理由具体的かつ詳細に",
+        "消費税減税法案参院へ山積みの懸案政府は説明を",
+        "与党一強って怖いんだ衆院解散を機にデモ参加韓国フランスブラジルが刺激になって",
+        "新人の渡辺弘一氏が出馬正式表明本宮市長選福島ニュース"
       ]
     },
     "世界情勢": {
-      "last_post_date": "2026-11-07",
+      "last_post_date": "2026-11-08",
       "urls": [
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NjVNZFV3UHpXbVlxTzhZLXZ5ei00Y2daeDd1OEJvZTlHSWN2czdyeTctRjlsU1JmY2kxdVNuWEFha2k4SDNjcTBnRDFCaXVPUlBCUU83WVJzSkdDMW0xV1RTQQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGY1AxVzFIVG1iQnkyV240al9mVkNRWkgzcmh6ZTFyUUFISEZXYk9JQkRQM3U1TmFNLWVTaVZpTGg0UmVmOEUtYThmdDlaVWVr?oc=5",
@@ -117,7 +157,17 @@
         "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13anBMN0RxZGNqRjRZYlU1cGl4RUEwd3N4N01uWHA3OHItUUd2VmctZU9iS3Z2TkhnR0F1aUZ0d1NuZGFaTlp2eDJxV2NjQmNXVFBlLThNNTJkS3JGXzZiLUtn?oc=5",
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5teERFeEM5ZzhKeUxvYXRjVHowUzhHTk5UMVZlaGNvYjdzVEtBTFFvU3g1YXdzRjFlTDAxR0VBRnc0MkFBd293ZlRDQlE3T1JPd2fSAVRBVV95cUxOc2JvMW5WM0Z3TEMzTHlWZDNnYmdTd2pRdnhGUVkyWXFLWHM5OGVFbjBJQjFxQVp4emY1MEFNWWs0M19LQXFwMGhUSEpDUHhFcTRWM0I?oc=5",
         "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yOUdLeG5OR1FXekZ0V0k0MTczZVo2MzdZYk9qSTVvUkpvTkE4Snd6UmhFNFZ1SzBmWnYyWnY0ajN6R0x1endURDBNc2JhZnFlaFRLS1JOTmp6blgyZEloWWIyOVFjWldEU21qUmZxSnlpY2VuTDVqMDVB?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YSS13Z2JZX3plTXo2RlduTFdWcmp0V0R6d3dQZlcwYTl3S0ZHR1BSSjdPYS1EZFluckJwc3dEeHN0X05ib2s3T3pIc0w0bGw0SmtldmE5ODhidzlaSXRPWnlHN0pQSDQ2azljR2otRVhTX3dPTHI3UHF3?oc=5"
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YSS13Z2JZX3plTXo2RlduTFdWcmp0V0R6d3dQZlcwYTl3S0ZHR1BSSjdPYS1EZFluckJwc3dEeHN0X05ib2s3T3pIc0w0bGw0SmtldmE5ODhidzlaSXRPWnlHN0pQSDQ2azljR2otRVhTX3dPTHI3UHF3?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGVXNNYzNfb0RSOWh4Vk05Uy1Ud2NJbDdmcG1lU3pkZ05FbUQ0R2hxejcwdEtxRlZ2R0xLbXg5YjFBQXdZMTZrbTU4M1RRc0F0bGxzdWIwRTA0OHFJT2RUZ0d6bThHVG8?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FcnB5Vk14cXYzZUd2NVBkT3pkT25vSlJwaHhTd2FCcVEwVXB2MU1rc25adVpobmVFTzFpRHZfVzNlckhkNGkyMHdyeVZTbUtEMGJWMjNIeTJUVzRDNWhUc1N3?oc=5",
+        "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQamdqUVhpOE9RTXNQZFlGRnpEQkhQMF9KTF9wSVdfUGZ6Xy1ZYmRvejN2cXJvOGtCX1cyWWU2UmFnRER2eHM4RUVZdW05R1JnWTRYdkdKSmlzaFo2U1VTZzdyR3EwNFM3cXVVb0cyQlpWejJ4WjduVHFjTlRERW9ubk5KdUNCQTRudGVUY3hPUUZCc1ZzNnhGMnZsR2oyWlM5WlUyY2RiVWJ5OF9hN2c3ejhhcTd4WVJJU1BZQy11V3FJeXE5Z3dobEZCVzlQQXFjTzdQOWozRWF3NUtYWXpFdUxCSGFucm9haDJDUjFmLVZGVE50X3RzXzVWanRmdy1CTlRJekNYUjFLbW0wbWMyR00zVEowZkFsS3hSck8tUjcybTBzeUZMaUMybjYzZzQ3aU12WTZwNUowc0t6X05LbjhKQktfUDdPZGNyQUZiZEltd2t2SVZ6UVgyZXhIUFdUYk5mYnpScEFac1NkLTgtTlRISzg0NW9E?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHcjIwSGpsaTMtN3YyZ1hPYVo0cjVua0JCRTZBdnI1RkU3OWZwTXctOXlfemZ3Y1FmTUZsVFhRT3BDWTl4VG1CdjNFU25uSFRodnluT1VYdVV0UkFvV3JiZm1yMF9lekxVU0RqNnBwSGdOdlc0R3c?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjTENLWERDcjVIb1c3bmVvUGpCazlJRXpUZERHNG1Yb252M0J6UXJ6NnhXTnNwcVV3OGJQMDlhbFZJTnZxWEp6NDlXQ1pXMktKWEZ2ZmE2LTRhbEZqSkUxbklRb2JJMG9LV0d0Wg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UaEZTeHpOdUN6ckdHa05UcHJDaW1aemN3dlluR3RPbkozREtPTGVwNFVyR1lGcjlSTmxOOTlPLUhNOFdHX0pYazFaMFZ1MWQ2VWgzOGhscjhSMW4wYmFTUHU4UWRLbEZfclFVWmdoQ01UU1FMSk5scG5ESXlUNEU?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HTEdPN1JIZC16NUtQNlc2QWlxVGZLUUhMLWpXWDdMYlRVaUdXUExsS3pNbk9iU014bzRrZl8xd2QyTTl4VXZETVJ5UGV4V25sNWN6RnVrbVJjM21tNGNTckVzQUt4Vm5WVjZjaWh4NVZkOFRGalE?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41MkFrNkEwV3VnNzZENEpxSDZmZWdaN1BSMm1oZU1ibTZiWmpzODlEUjBwTXFVdk1hejFWaEVHY0swcUJFSlc4WU5kSVRPb0F1RlF6aGFhYTM2ZGZQSFFkbGVn?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aVThQZjI0LVU5SXI0TWFxNHFSV21CY3ExaHlONFJKMkVSb2luTnZjY25XbHExTXlEanlPVVZmaTdqMEF0bU5xYzJaLTJCUDZTbzhfbjlSeGtiUQ?oc=5"
       ],
       "titles": [
         "米大統領首席補佐官が退任トランプ氏最側近中間選挙大敗の引責か",
@@ -129,7 +179,17 @@
         "大統領が辞任表明自身関与の銀行破綻口座凍結で南米パラグアイペニャ氏が動画で国民に謝罪",
         "米中高官貿易巡り互いに懸念表明apec首脳会議を前に",
         "イランアメリカへ核に関する提案提示の7つの条件受け入れ後に議論",
-        "米中間選挙後初米中が閣僚級会談休戦状態確認か首脳会談に向け調整"
+        "米中間選挙後初米中が閣僚級会談休戦状態確認か首脳会談に向け調整",
+        "イスラエル大統領野党党首に組閣指示へ反ネタニヤフ陣営結集へ連立交渉時事ドットコム",
+        "米国の核の傘にはもう頼れない日本の核議論の現在地は高市政権の安保見直し安全保障関連3文書",
+        "トランプ氏さえやり過ぎと漏らした忠臣ミラー氏要の首席補佐官に我々は権力で支配される現実世界に生きている",
+        "国会の議論と私たちのリアル物価高外交将来の備え",
+        "主張cop31開幕へ災害減の適応策に重点を社説",
+        "トランプ敗北後も米の外交安保戻らず変わる脅威自衛磨く欧州",
+        "アメリカが普通の国になる日が来た世界の警察をやめる超大国に起きている異変ダイヤモンドオンライン",
+        "トランプ政権の親イスラエル外交岐路有権者援助しすぎ51中間選大敗で見直しへ",
+        "トランプ政権中枢対イラン戦闘終結へ外交的解決模索かバンス副大統領が間接協議関与と報道",
+        "第81回国連総会での各国首脳の演説を堀潤さんが解説"
       ]
     }
   }
