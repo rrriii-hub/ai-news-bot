@@ -1,8 +1,8 @@
 {
-  "last_post_date": "2026-11-16",
+  "last_post_date": "2026-11-17",
   "channels": {
     "AI": {
-      "last_post_date": "2026-11-16",
+      "last_post_date": "2026-11-17",
       "urls": [
         "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -128,7 +128,17 @@
         "https://www.itmedia.co.jp/news/article/2611/16/2000003198/",
         "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ERTUwaVRHOTZzelpyNVhuTlpGYlBTOFhLQTIxWXhGbkYzVURwazBncHExcElHOFQ0VXROQ25qQ0NCdU5zd2RBMVFUYndhUEw0TFhkWnJvUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GSC1rNTZpUlJSYUV5NkYxYVpKQWxSYzRrb1c1Q0JXX2FyVEVEOTAtT0R4WGNGX3oyckVYcW5jM3RzUjlBd3JBbWN1ZkdLa3Z4?oc=5",
-        "https://www.itmedia.co.jp/news/article/2611/16/2000003208/"
+        "https://www.itmedia.co.jp/news/article/2611/16/2000003208/",
+        "https://www.itmedia.co.jp/news/article/2611/17/2000003241/",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5VjlZelJEcU9rOUNLWVJ2aE01d2xsZU1ydVlNV1hUTzJJZ3pTX2RLS3VFUDhBMVZDQlFsYmNhWGJHaW4tQ1k1ME51cFdrNE45QWZjX2UxWVpLZHlTVDFDdTc4aXBlR1U4aGl6NGVJTndualhYMmxuN2U4c3FSdGM?oc=5",
+        "https://www.itmedia.co.jp/enterprise/articles/2611/17/news015.html",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KRzI4c0hhVVYyNEFuanRqcEpRMjd1UGJVWVBMdWUyNVpLNkJ0Qk5VVmVTdUlneGptcXNmeVl3U21GY2s1dDNPbGdET0R3bFc2RlE?oc=5",
+        "https://www.itmedia.co.jp/news/article/2611/17/2000003254/",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WeTA0VWRMZU9HT0NTWmp2RTFyUTJDM1dyVkU5Z1czMWE4bnJwTTBRQmZSejVoRGh4YVp5eTQzZnlRWEV1WEJxLW9naWNTSVNDX2syNWtjTnVYQTNPVGh6MXhYOXNYQXB0?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003249/",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XOWZ4YkNNTkRzSm8zeW5SeGlNejRNaGhueGhEOGRIanl0b0F3YUVHZGxjc2hPYlVmV1pZaUNMaGZxWTFocVZlNVlPeENSWWhiUjFIVXNDQm1aM3BfZGQ2WkRhajRESEdkdTgzYXhXMWtqUEh1?oc=5",
+        "https://monoist.itmedia.co.jp/mn/articles/2611/17/news014.html",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmVTZ4bHAtTUhiU2JPZHZvdFFyTTFuZjhNTzNpdHJSUmFrd01PYlBTR2R5VmhLQVJ0aS05SGladjNXbzVCaFViSFJCNF93eEZ2NjQ2WlFrSVNoMkdzQmJ3SkJaRDMxRTBnZ3hNWUd4b21VLVhSQXM2eWJvWEhPc1E?oc=5"
       ],
       "titles": [
         "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -255,11 +265,21 @@
         "フリーランス市場受注者の約8割がaiを利用自発的に開示は1割弱両者に意識差ibmリサーチなど調査",
         "gemini4hydrogenbusinessesinchatgptほか広報がおさえておきたい生成aiニュース11月9日15日",
         "aiの電源を切れなくなる日がやってくる元openai幹部が警告する開発競争規制の危うさマイルズブランデージ独占インタビュー",
-        "openaiaiエージェントが代わりに支払うchatgptwalletカード番号は渡さず購入ごとに生体認証"
+        "openaiaiエージェントが代わりに支払うchatgptwalletカード番号は渡さず購入ごとに生体認証",
+        "aiに打ち明けた相談は広告トラッカーに筒抜けchatgptclaudegemini含む42サービスを米大が調査",
+        "科学者へのai利用機会の拡大",
+        "規制の厳しい業界でaiエージェントをどう導入するmicrosoftとibmが発表した基盤3つの特徴",
+        "カリフォルニア州openaiを提訴aiエージェントの不正アクセスめぐり",
+        "openai児童性的虐待コンテンツcsam検出ツールを公開chatgptで探すと24時間アカウント停止の警告も",
+        "anthropicのipoに応募6倍openaiは資金調達に苦戦ai投資市場に異変",
+        "ジェンスンフアン氏復帰を求める公開書簡に18万人以上が署名現役従業員9000人に加えてイーロンマスク氏らも賛同",
+        "トランプ政権nvidiaopenaiなど24社をai国家代表に指定へ中国けん制の狙いか",
+        "大手自動車メーカーの検図工数を90削減aiが図面の重要な変更点を判別",
+        "ジェンスンフアン氏退任はnvidiaバブル崩壊の序章かどうなる今後の半導体業界itmedianews"
       ]
     },
     "政治": {
-      "last_post_date": "2026-11-16",
+      "last_post_date": "2026-11-17",
       "urls": [
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWVdwQjJoTGRVdkw2UFFoZXZyUkQ5VElmVEJ2SllzQkRIUlJDMUxWMGVxcjJoX2k5VGh1ekN4TmM5ejJvRWZWZVNOMU1SUHRzQzJDVkVPME82LS1WMDdpeFpvNzllMnM?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBONjVlQTdncUtCa2pGNk1DbGJkQU93SmhyQnJwTlI3Y0hVWHAzWE9mVGNCb0tvVmNZaTFqNE5mUjBXajN0NEtBNnRtMWl4TkJNQ1NvVUN4QVlWY1J6UFVjSXJBUmpSajA?oc=5",
@@ -360,7 +380,17 @@
         "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CbHkwdzVkVjJaMjFWckVEY1NsTm9FWGx2M24wQ0NhZ3BTZ0haR2tiOU1nWnFiR2JHaDBTYlhBRWJpRWp6eXI3cUctNkdxRmdPN1liVTJlM3d1QU92ZXhV?oc=5",
         "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Vblc0bkFUOHNDTFhlcTk1VGhZVWd4N0Qxd3NwRU5jYkNZWkdWdVN6Zm1qUTlpQ3prZ3VPazB0RzVYMUllR0VyTTVEMVVpNlJiMlpHcnVDRHNKeWI4VldrT2RMTEQ5cXhOaUp4MQ?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE95RnEzZ3NIOU5PdVpvOU5ERWo4OFNfSG54dHg3RC0zdDJjQXJDTmxSX2wtUWNYd1RtTmx0TElpaFdXOGFKdVhnZDl4d0trYU1DRXNiVUg1OGVVcXV6emNHOTdYSUF1SlFzZER2T28yNS1nd0FL?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUY0YycFRVR0h2YjZfZy16UXNyRFVKemhmbUNDU2JfNjBBeE94VnQyTzVvOUxSODk0UGZsMkNxb19iYUhfcldhaEhZQ2pLZU1RWlI1eTZlel9KdXJQUHFqU0txV3V4dm8?oc=5"
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUY0YycFRVR0h2YjZfZy16UXNyRFVKemhmbUNDU2JfNjBBeE94VnQyTzVvOUxSODk0UGZsMkNxb19iYUhfcldhaEhZQ2pLZU1RWlI1eTZlel9KdXJQUHFqU0txV3V4dm8?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVS3ZEZ05TVzhTSUNzWmVqYnVfS3ozblNfWW9UVmluN2xONFZLZlcxNlhianZtNHlNTDJlQ0tKQmlKNUdPQm9MTnJsa0F5a1dRZlVXY2xTQlhiZGw5bmJOWFVOam1ZS2lib2hKdm9fOW5jc19kUGd2TDh3?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCTTdraGN3NEJKUWUyVnF1cDlLUU0xYll6MjJRdjFGa2NFbC1RMHEwdWVES1M5eWljWVptd2cyOHQyZkFub2VnbGc1eFNxZnEyWjRKNW1VaG51Z0NFcndiYnJhNFNtV0pt?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5OHBxR2dkRnpUV2xsN2p3UDV5bUc2ekJyclo4Q0hmNG9OYXN4eDdJejZmX05DSXZuUnR6YVBZd1NkUm43dFpPdkR6YzRaZ3g4VWZoSm9fWFZOdkZhT1JQWk0wWG9tcGdfTnN3Z1RnWlpuZkxT?oc=5",
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xTk9oaWVxYTcyOEplUzI0dGRPUENLcGo2VkFIVUZXUTVrNUNwdWJEWHA1ZTVlNUJuM1RfMG5XVFNQaFRMNWlKVlZwUFNleVRLMVByZHNqbw?oc=5",
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55ZDIzb3pHcWZMNjNFMGJxUHZvX2Fid3RzY2xsQ1FSUkFBUFhHZVBmTG85aXRMZnBGc3Npb1F4ZHg1TnVHczRGT2pRZnZJYU5qSG9WUkZPTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aYTZjVVREc0oxbnQ0YlktcWMwNkgtMWZwdnhCdGRua2hZb2ZpRDNiQVlna3g0Ml85WmphYTFUSi1DYVV6a2h5cFV1aEt3V2tBNFVMMkpsNl9JZzBTbV90cnp3MjRtMDhwZ3VYa2JBd0pDZGs?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QTWdWX3JWSmlFSDU3dnJoVE5hMTNPb2pQTkpwVVoxSHJjeUlReEJqX1NvRkQ0TWVrZmV5RnluZnpTVDh5MHladWpidUpQZXhuWkR1YW1jWldXMGs4SWxJ?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PRmhpNGtkMEx2MXdDZUJ5RjlZVFpFWnBQdmJCVFNMVFFCakhMdGxGT0NHWWRsbjBuSVdzNmhQbTBLbHFCSW85MEJ1dHVnQ29BUWRuOXlneEhxZ2lySzgwcXBPTnV6ZE03UVNxTw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VVnJ1dlNsTVBNa2pheE1fY19CX3d0MkF2RmZJWTFvdjZUbzJ6MHVNYmYwWEVoNlB4ejRMUzdSLVI0Sml0V2FfMkhDankwNjNRMklmTXduZUZvRm5lLTBWQ3RQRzV5VHV2TkNaYg?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94Nno1a0JQNlpHdUZLTkRGbHlOTktNSnlJZWJwQ0tRQkh4NkRwRzdPbE9YcGlZSEJqclFGbmlpdnBRZm1NRmJLTmk1aUlIeEx6c2p6YmNlMUI4RkduUHhPWHFFVkg3QTQ?oc=5"
       ],
       "titles": [
         "静かに進む国難に高市首相はどう挑む人口減少社会への処方箋は高市早苗首相自民党総裁消滅可能性自治体",
@@ -462,11 +492,21 @@
         "高市首相aseanapecへ出発国際秩序維持強化に向け発信",
         "沖縄で相次ぐ米兵逮捕官房長官遺憾の意を伝達綱紀粛正促す",
         "国家公務員増員せよ仁比氏法務局人員不足に参院法務委しんぶん赤旗",
-        "再選挙の福岡市長選各候補者どうする挑むまだ決められず福岡県"
+        "再選挙の福岡市長選各候補者どうする挑むまだ決められず福岡県",
+        "防災副大臣金子道仁かねこみちひと第２次高市改造内閣副大臣名簿",
+        "木原内閣官房長官に対して2027年度予算編成などについて要請",
+        "比例定数３１削減法案きょう衆院委で審議入り塩川氏は反対しんぶん赤旗",
+        "木原官房長官広島県呉市に整備予定の多機能複合防衛拠点防衛力抜本的強化において極めて重要な意義",
+        "衆院比例定数31議席削減法案が審議入り少数政党も議席得やすい修正サンラグ式導入も盛り込み24日に参考人質疑予定",
+        "原因究明をスパコン富岳に不正アクセス木原官房長官",
+        "高市首相今夜クアッド首脳会合中国念頭に深刻懸念表明へ",
+        "官僚への講師依頼問題ない官房長官関文科相の政治資金パーティー巡り",
+        "自民党萩生田光一幹事長代行県連で協議を福岡の再選挙対応",
+        "広島県江田島市長の死去に伴う市長選12月20日告示27日投開票"
       ]
     },
     "世界情勢": {
-      "last_post_date": "2026-11-16",
+      "last_post_date": "2026-11-17",
       "urls": [
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NjVNZFV3UHpXbVlxTzhZLXZ5ei00Y2daeDd1OEJvZTlHSWN2czdyeTctRjlsU1JmY2kxdVNuWEFha2k4SDNjcTBnRDFCaXVPUlBCUU83WVJzSkdDMW0xV1RTQQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGY1AxVzFIVG1iQnkyV240al9mVkNRWkgzcmh6ZTFyUUFISEZXYk9JQkRQM3U1TmFNLWVTaVZpTGg0UmVmOEUtYThmdDlaVWVr?oc=5",
@@ -567,7 +607,17 @@
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zb0ZpYVgzVUlPQXlka2k2QndqclBNcWM4VXRVM0lOMDd6ak91d2tXWVdnY19iSFRNeTMyc0JhZm1jZHJtanBKR0IySTktRFVUdTNra2ZNUzNsc2p6NWI5cHlCRVRlblJGUWFNRGpHUWpZQ051NXUzMDlFVUVxc0k?oc=5",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oN0NUZHJ2ek10alBvaHloYzF5X291c29BRzFmS2w0NE1EVGRGblJKZDNzeU53YUtDOGNJLVVlandmMWNLYjlwU2pmTVBHbVd0VEcyQnBWRUdFWWNCamtiYnVpdUc3OVlaQndYNmJRX05NMjA3WFhQSkNWc0VsTjQ?oc=5",
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuS1hMRTJxMGJmZEhMUzZLZTF0OHdoSm9OUU52YkhYNUlwZF9kOUhpV2o1bmMtazFsX19FdlJnbWpiQzRudncxczVBODJqTVVyVnJzYnVvVUwwd1RoNUNtOXVPcw?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DX0h6U0RLMzBQa2FsdE92eU1Kb2lYQkkzWDhrMnVxSmNuQ3hpdUVHY1U1RWFPRERDNjRPYkxMZGt2ODMxcm52V1ctWG02TGs?oc=5"
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DX0h6U0RLMzBQa2FsdE92eU1Kb2lYQkkzWDhrMnVxSmNuQ3hpdUVHY1U1RWFPRERDNjRPYkxMZGt2ODMxcm52V1ctWG02TGs?oc=5",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWFZZjRrVHpUWV8tZktDeEpQN1ItSkFaYWp2MU5tTTUxWGRhMGs2N1ZKWkJyLU9VVFl0N0I1QXh6T0swSWtYdDVMT3RwSUZiSVBOZmx3dTVsd05UbEN4NV9HLUtPeGpzZjRfdlBiU21XdjNSQ29UOVhmZFI3WGlJWEh0Rnpnd016VHJlRA?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xbUtWNkhpOXBseUJ5b01fRW05ZkFjb1BRWnRxRS0yQkh6N3kzLW5nZEtXYUl4aXM2SzJ2MXhXWF9WMFgyeE5hZEprT20xUW93bGRBS3Rpd25ZT0lrUWxuTEtn?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRDZrY3YyckRnX0xTbzhZUkNsZHo3bnJna2VzRi1JVzJXUFBPcDQxWHczNUc0YUMwdHBCSzVieVVSM2pEM0JnZllsZWx1YlA5RTlfelFPMy1kcmNFcklRLTVWcw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWUh1dzNFcW5wVTlVV3N3OGNVLWdOR1ZMWjliaDAxTTEtd0NYcDJvdFBYYkstZ29PeUM0TExMWUlDaHczZ1F3SHVZcGF3cFhFeG1oei00YTFGdU1LdUlYT0FhWmp4YXdYUC05SHhBY1czaVhIUC1PVnF4TFhuOHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tYVdMLVd3amlfTHhEOFlJR1pGeEJ2VGpKa1ZPWlY4ZjhCMGxJSnFxSlRPTEUwbUZKOFRtR0RwUy02cUN0Z2RxMU93NXJYT1ozaFJWUmZEOGJ5NTY5dURXRUVn?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvN1hJc1JvOHI3elVsUS1vNk1zQmRqS1lXQ3pmMlMtTmY5VG5NZ0hydEpQZEFQWHVOWHE2enFBd3lKZTlOR1Ewa296V2NVUGsyRDJFUVBSZzB5TE0tMDdGS3N3?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwVzJlQjh6RDkyMUVtTTg5WDNLazNUem84NFlCVEpjcHNJZDhqNmc5a3BVM0p3WlBzRTctT2x6b3g0MEFnQXRkeTJHLVBsMUJLQVlzcDVqN1ZyN1JrRXQwLVpBV0tQVEwxcGUxaQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PckpGc0hGQVo0WGhVRmc3SFdHN0xFMjBnYzBHNGFSbXpNZ0NJVlFJRWJ1WF9WbE5EV1JoWlpVdENVOU5vN1JMRDc2Z2pKd2xhbTNreE4wSU9OODRqa0x2WmhR?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aQTBiX3YwMzJCZmRKZGF1cE5kOXBOaGxfcTVZaVljZVdmSXhaZkJpRU5ZOXl0MVE5eFJtdktSNEN4bVdJc1VZQWViYTBRdHQ1emQwNVBKR2FQRDhUVy1WOEx4TTRwSjNhd2UtOUttQ3JGVm0xM2NLWUdB?oc=5"
       ],
       "titles": [
         "米大統領首席補佐官が退任トランプ氏最側近中間選挙大敗の引責か",
@@ -669,7 +719,17 @@
         "エボラ出血熱アフリカ中部で今なお猛威政情不安で医療活動に限界ワクチン実用化もメド立たず読売新聞オンライン",
         "日韓首脳会談17日にフィリピンで開催安保分野も協議へ毎日新聞",
         "日中首脳会談は困難高市首相１６日から比中訪問",
-        "日中首脳会談困難な見通し高市総理asean関連首脳会議へ"
+        "日中首脳会談困難な見通し高市総理asean関連首脳会議へ",
+        "イランが米首都で汚い爆弾保持の情報高官を標的ベセント財務長官は軍施設に退避",
+        "ａｐｅｃで高市首相プーチン氏接触の可能性日本側からの打診に露大統領報道官排除しない",
+        "トランプ氏正恩氏と会談するかも習主席次第ロシアも同調時事ドットコム",
+        "f1カタールgp会場から約111km隣国バーレーンがイランの攻撃を迎撃来季開幕戦バーレーンgp会場までわずか11km中東3サーキットの位置関係はtopnews",
+        "米中露首脳会談で共同声明検討か露大統領補佐官国際情勢に大きな影響を与えるはず",
+        "ａｐｅｃ成功へ中国厳戒会場近くの住民にホテル滞在費優遇策で人車払い",
+        "日米豪印quadトランプ氏初参加へ重要鉱物で中国依存を低減",
+        "エストニアがロシアとの国境閉鎖へ無人機製造企業の放火に露が関与か首相脅迫には屈しない",
+        "米国への留学生や報道向けビザ期間の短縮規則連邦地裁が取り消し命じる恣意的で合理性欠く",
+        "ロシアに過去最大規模の攻撃1336機を撃墜ウクライナは石油施設攻撃を発表"
       ]
     }
   }
