@@ -1,8 +1,8 @@
 {
-  "last_post_date": "2026-11-19",
+  "last_post_date": "2026-11-20",
   "channels": {
     "AI": {
-      "last_post_date": "2026-11-19",
+      "last_post_date": "2026-11-20",
       "urls": [
         "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -158,7 +158,17 @@
         "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003318/",
         "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ydk5qdjVKOE9pcFZkTy1Lckl3NmFLaW1ZaFVPa3RJbEllYTFEUWFJNXgtdFZVYndXNjlXQ0Q0eklCZ0R0YkJ2S1RsQWhvTm5UTzRLOHRWa3p4SHpQckFWNkpCbEVtcmJ1NTh2RXpNbw?oc=5",
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hV3hWUXYwWTJpaG9vWGtJWEJyaDc5UDRtamliUEs1NV9Ydm5WT3pqZ1d2Q1U3Rk9RS2J0N0pNdy1mOUhlbjBTNEplWk5vSmpQaVpRVmJseE1lOEUyLTBfR0VwYw?oc=5",
-        "https://monoist.itmedia.co.jp/mn/articles/2611/19/news044.html"
+        "https://monoist.itmedia.co.jp/mn/articles/2611/19/news044.html",
+        "https://www.itmedia.co.jp/business/articles/2611/20/news024.html",
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoVzhLYkp6SVN6RV9vNjRLOU02ME9PMk54bW1ZQUZPN3VEallmWXR5SURnM1FWMW1QVVIyMFhqNUFDNnI1Y0EyVWp3VGd4a0h0djVLU1hQOVdXM3phMjNhQ3lsXy1XZw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JeEtaSWlWUm1aRnF1ZkNwV19PeWlCZTJiQVlORlkxRXZpRHFobld6MTc3QWJJZGxPVXJkT1ZxRGtWZnNFQm82YVZYX3RwbEhVdDBFTWs2c0JpMXdzN1pfZmJHVW1oOHFQUDlfbw?oc=5",
+        "https://monoist.itmedia.co.jp/mn/articles/2611/20/news029.html",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CajRfc2JQdDRSeDRtRjgyRE1ZaFB2LUlZZTRIUXVQUGc2QkRaSzVhQk93VWcwUC1CS0p4aWZJdGZnX01VOUtBRXB0djFDLVNiZWdsZ0JRYXVSVWZJaWc?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FdlZvbGY4VDR2X19ZZHQ2ZDFvSEg4MHRZUzNKd0ZTenJXaGJhNmw4ZkpWSkxNVjVmRW01b0MyUi1JaVlTRjBpQkVyVWtMSWNDNGJsWTdnTVZlN3BsTTJ4LWNVWDFSWXJXVXBKdEdvZ0RoU2w5?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003359/",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KRTRLbHU2VXBPcTdiSEhzSDJoTkZPM1I3SUNFMi1BM1hrNnRLWjczZVZiT2l5WGhQSnFkWjkxZkNrUElrbHl6SEswVDlZSVhYdVAwX1o4YlF2dTl2SUtJMnFhREttb3c?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IRUFzd3lvRnRCVVZqMmVFU0lGY1lsU3pLSlo0MVNqeW04WkNjSm1CSURrNG5NUFBubGJqc1JYUkZxT0NFQXNPQU82Y3FlUE1hTkJublRsS2FWREZvX2c1ajUyLS1hTkwzc2RDcm0xTy1VSTltdERqQ0Y5YnJqTHM?oc=5",
+        "https://atmarkit.itmedia.co.jp/ait/articles/2611/20/news021.html"
       ],
       "titles": [
         "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -315,11 +325,21 @@
         "aiによるai研究指数関数的に増加でも依然として人間中心openaiがレポート公開",
         "コマツ油機開発のナレッジ基盤に生成aiロックウェルの次世代製造業向けai戦略",
         "ドスパラnvidiartxspark搭載proartgr1x通販サイト限定販売",
-        "pfuがファンレスエッジaiデバイスを開発自然言語入力でai解析機能を簡単構築"
+        "pfuがファンレスエッジaiデバイスを開発自然言語入力でai解析機能を簡単構築",
+        "日立がフィジカルaiで狙う5年で事業規模2倍の勝算35万人の新会社トップが語る戦略の2本柱とは",
+        "さよならclaudecode人気aiに愛想を尽かしたエンジニアの意外な移行先906thlap",
+        "米がai半導体88万個の対中輸出承認nvidia製など5月までの実績開示",
+        "車体形状を変えながら空力性能をai予測autodeskがnvidiaとの技術統合を計画",
+        "googlegemini4neonを発表既定の設定でタスクあたりの費用はcarbonより32低く",
+        "neurofusiongoogleopenaiを抑えai未来予測ベンチマークで首位",
+        "chatgptplusプラン一部ユーザーにdots解禁businessstandard全ユーザーにも",
+        "参加無料12月16日生成aiイベント開催イトーキ大阪ガス幹部が登壇",
+        "日立がopenaiのサイバー防御プログラムに参画脆弱性発見から修復確認までaiでつなぐビジネスit",
+        "ベテランpmが辞めても失いたくない暗黙知を生成ai面談で残す東京ガス系が実践したノウハウ継承術"
       ]
     },
     "政治": {
-      "last_post_date": "2026-11-19",
+      "last_post_date": "2026-11-20",
       "urls": [
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWVdwQjJoTGRVdkw2UFFoZXZyUkQ5VElmVEJ2SllzQkRIUlJDMUxWMGVxcjJoX2k5VGh1ekN4TmM5ejJvRWZWZVNOMU1SUHRzQzJDVkVPME82LS1WMDdpeFpvNzllMnM?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBONjVlQTdncUtCa2pGNk1DbGJkQU93SmhyQnJwTlI3Y0hVWHAzWE9mVGNCb0tvVmNZaTFqNE5mUjBXajN0NEtBNnRtMWl4TkJNQ1NvVUN4QVlWY1J6UFVjSXJBUmpSajA?oc=5",
@@ -450,7 +470,17 @@
         "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mUlQ0UmNWQkl2N2Z6SWxpZ1o2cHptODN1eWlLNEpNMl9DWkVGUEpZOWw4VlBBQWhLMmV5b3VTN3JyazNBVEdsZ1BTbE5hbHl1ZllaOFBUaw?oc=5",
         "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6Wkk5dE9WS0RWSXRGelRKRVg5bWFhbEtJV2NxSDRlTTR4dk55NWtHeVpIYWxWX0xZSFlrY2hJYnhrMzVWVl9ySkpodDdFbVhWdDNaa2JzTnVHcUt6bHgzb3lsdm9GQXRDZlZjSGtUOV93QzlyT0tWcGRyaTQ5Zw?oc=5",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTFBndVdtXzJ4TGtKaklFTUh1Q2Q5RTFOQUp2ZFZUSGdTUnZ5VUxPMTlmM2x2Zng1U3l5S1czcW9HeVEwZkRwVTh4RnN3XzZZN0pUbDFnR3lkUGQxdFJSSFlnaVdDeDVOQ1FGWDlEQXpzNUlIY1RkYVdsaklpX3RTM2s?oc=5",
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZXdINFg2QTlzZWJ5RHNrd3FIbUV0dkFwU1dkWmdldVFQd3NZUFRELUZhWWdjQ0RBT1pQa2s3MVhqVURKc3R6N2I3ZktwZUhrRmdKV3ZHX3dEQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZXdINFg2QTlzZWJ5RHNrd3FIbUV0dkFwU1dkWmdldVFQd3NZUFRELUZhWWdjQ0RBT1pQa2s3MVhqVURKc3R6N2I3ZktwZUhrRmdKV3ZHX3dEQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SdkxnRUU0ZTBGdjJSYnJUVEkxZFhvUlVZZi0ya0JSdDloQjV3d1U3VzJSR3BJQVFFYWVNZ0VLcmNHQS0tdm53TFVBemQwNmUtSWZlTzlFajRyMlV2OE9NUjV2LWtzQjdGWVh1dTZnRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1KQV9UU25zUU9WMzI0d3dDdDNiNnV1WnhEaFB5ZGFYRFNIa0NUN3p3emRFLTd5TjZCQ2hkaTNFc2lkU3ZVNXdj?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiOUVvb3plSnRMWTZQVDMyaG5Fc0dSRklOZkszZUV2ZEQ5cml1dW1rclFTYjVzMUNrRTlHUXB5WFY0cDVjTzdWc2FQMVI0Y3pjYTBBTjFTUEVhaVhUMlFSaE5YZWVKdHpZdnh2bEtORmlleGtub1k5RnRrTXNMWDQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4NTVycHZSNXJkcFdIdl95enp6ZG1JQTVRWWh3eFRxbE9qSTBvcFFpYURLSWJwSmFkRzRjQkRZNGlFQnE0RGYwd3UxclJuR2ZiN0ZlSVpjc1BmajdsTEww?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EMzJVLWlzcDFZejRBZGUxazU4SGFJUUZSaUV5bnMzY2Ziall1UGhTajVFQmdZdml6cjBSXzZYd09hSzRQMnRUTTdyNEo4SG9rNHhmRWdIODFaX3VNR1JkNE1lWXo2STBRRXdLbTgzNTRJQkk2?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KaHJ5ak9QRUg2NnVBS1hjX1lnZjI3YkJzZDVsQ0ZneEFodXlsZUpZaXpBWTFtZC1RSDJjTDdsMW04VUhfRjE3M253bGhVWjdramd5YzFRQk9sakN6bzhTelgzZ0VrNmVObnJwRw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wSzVZY0Y0YzNwN3B0TU9XN3ZVZDlCelpJWlVIRFRDUEd2cEV1enBoOGlSbFE4QnhwaTNETUdqSEhqQVVOQ1Bnd28zdktVSDhCTTBQNGJuN2Z4NlRhVjFmYl82c2d6ZFVOcFJ2OA?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kUmQ3TEpjMDhPckY1cUFuNXpHZ2UwWjE1SExxbUNqSHN4d1JYamJYMUxTM3REeW1OYXU0X3ZMd3l1S0tmN3VzTXVJWU1JRkEwNk52VHZLMkhNSWF6UmNZczQ3WQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MVWtROUJVME9XSVdRcVhNOXQ0NkVpUUFDVUdHM3hJc0JTN2JRN3ZSS0FabzZYbVNFVUk1TFJUaWdHaUFMcDRUODRfcnR3NDVEb3FKXzZsa0psM2l6angzNUxfRzBKWVE?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SRWpMbVkxMk55cW1iSEdIZ2U5UTExR21nV3dfTWJDcGpHcDZtdGtKS1FzdWY2Q1h6SjdfdVpaV1lnUXZNX2ZVajJibHBCdm1PYThibmYzYXBpdldNMDNrQUdsLWQ5ZktqcGplT0RB?oc=5"
       ],
       "titles": [
         "静かに進む国難に高市首相はどう挑む人口減少社会への処方箋は高市早苗首相自民党総裁消滅可能性自治体",
@@ -582,11 +612,21 @@
         "焦点は富の偏在是正自民党で午後から来年度の税制改正に向けた議論始まる多摩川格差など議題に消費税減税などへの数兆円規模の財源確保も議論記者解説",
         "エンジンエックスに深刻なぜい弱性木原官房長官プログラム適用など必要な措置呼びかけ2026年11月18日掲載",
         "apecで中国が高市首相を冷遇日本側本当に失礼だ朝鮮日報日本語版",
-        "丸山達也知事が3選立候補へ島根知事選"
+        "丸山達也知事が3選立候補へ島根知事選",
+        "受講生募集神奈川県連第10期かながわ自民党未来カレッジ令和9年1月8日締切",
+        "外国人等土地権利制限法案略称および公選法一部改正案国会議員帰化歴公報開示等法案略称提出について",
+        "機体とタラップに大きな段差高市首相出迎え時危険中国に批判もapec時事通信",
+        "佐賀県知事選挙へ投票用紙発送の出発式",
+        "比例削減の先に戦争国家国会前１９日行動高市政権に抗議しんぶん赤旗",
+        "米中ロ首脳会談官房長官関係注視し情勢フォロー日米で意見交換",
+        "首相ウクライナ支援揺るぎなく有志国会合にメッセージ",
+        "自民人口減少踏まえ必要定数削減法案衆院委で質疑",
+        "高市首相の約10秒間の握手大国主義の危機に問われる外交手腕",
+        "埼玉県知事千葉県知事神奈川県知事による要請"
       ]
     },
     "世界情勢": {
-      "last_post_date": "2026-11-19",
+      "last_post_date": "2026-11-20",
       "urls": [
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NjVNZFV3UHpXbVlxTzhZLXZ5ei00Y2daeDd1OEJvZTlHSWN2czdyeTctRjlsU1JmY2kxdVNuWEFha2k4SDNjcTBnRDFCaXVPUlBCUU83WVJzSkdDMW0xV1RTQQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGY1AxVzFIVG1iQnkyV240al9mVkNRWkgzcmh6ZTFyUUFISEZXYk9JQkRQM3U1TmFNLWVTaVZpTGg0UmVmOEUtYThmdDlaVWVr?oc=5",
@@ -717,7 +757,17 @@
         "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FQmZ1eHZnUk9Hc1lGZDA5eVZDc2lSY1EyU2FOZ1BmOFlIVmdqV2NGeVFhRWw2UTRhMGJBa3cyV212WG83VzA1dW5jUU5faVFnT2g2LVBVS09aN1R4WVpNc1FB?oc=5",
         "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16V3FSVFNCNUNEdUhTWUJPWmg2NUVXYjlHQlNXQnhGblBhSjZCeVJGMjVGdUFJbmdqT3FmQXk4TGc0Qy0tUmVneFJleHY5YTdaUWF4ZUxoTQ?oc=5",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rd3dJVFVleU5lNnJnSmdvZkdDNTh0R1dZcGhvRDU3SlVGclR0LTl6aFBfeXR2TWRtQ1owSE54NkdwcXF1NHl0QWg5Nkg3QThNTWFyWGUzOURYTFk2clpCN09FQUk0OTRfRzZnX255UjBDb0ZOZ2QtYjg2MEhmX0U?oc=5",
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1haGlLUGNCQTB2bzcxZjdDcE9yaFZMa0Qxb1pZN3JjY2JtNjhjNXVlU1dIN0Y2STNIVURjUkFiX0NnWEUzOWk5UUZaRGgyZ2pDQ0dyemZXbWlBdmFtRFRN?oc=5"
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1haGlLUGNCQTB2bzcxZjdDcE9yaFZMa0Qxb1pZN3JjY2JtNjhjNXVlU1dIN0Y2STNIVURjUkFiX0NnWEUzOWk5UUZaRGgyZ2pDQ0dyemZXbWlBdmFtRFRN?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JZnlLZGRZd1NaRUVxQS11eHg1UklZaVUwZlVNV3c0V3RUQUxTbm9HOWRaalBLSkVZQWFGeHZUM0d5ZDVNSDNsZElTbmpiN0tCb3RvQll0Sm9ocFZzYS1xSV9B?oc=5",
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LN0dhc2hMVURVMnhzWk81NXJVTk1iSFVmYTFWS0c2SlNORk9JMjQ3NGI3R3hHeDEtSXBFZFV3QnVfSFdUU1M5SFJsQjVuVnhR?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Ec3hwZFdsNEJGc3Z5eTBjUWEwWjJMZjBXeTNHSUtuWEhPdnVqSTJpVjN0Y2NFd3NYWFZuRjJGd3dpMXlQUkFOYWtTaDJBN3B2Q0pJZ1hGeHRLcGxJMTRkU1hLdkZucWdPcnFFTzJsdEVIWERqbGxjZVB4b1RKWTA?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE43eWQ5a0RQY3lzdjBEdHRyX1JfUHh5aGo2QUNhSWVSVXRfNjZRMXBPdDFsTDAzVFd3c2s3eEl0azRqOUhCQW9EeVd5Z3RYTmxBTGdwQnV0WWg0REFOeFhVNFU2OEVSbi05SDNmb01Hbzg?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiTndfSEZqYTA4cHZwdFdZVm5zY1JVUUd5YTI1aVpJU0gzc0dvRDdyVVB2TGhxSUVYVWQ4cGYtY2ZxQzNyMEFwNlpqeEppVW1YVzNpV3EyeG02bGFOXzVqcENUUF9QbHpvWmlaNWV6alNFUE1KVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3NEhTYnRLZzh2WXVzMG55U1JrSjRaWW9PZmdQZ1YySXVhd0FHUDlRcXhuNmpQQi1yVktVVFprTGxQT2N5VXRFR0tjZmVLQ3F6Qk9ESzJjRkt4TnRySUxFWWlqank?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yeFB5UGplZWg3X1lmM2xtVEhSLVI5RHJ4XzFrMVVUejZISjRXNDZDeUdzWEJhOFFrNm5QYjFmUWpqdjktY1VJWGJHNUhfXy1Fc3g5bHZR?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSDUwSm5HdEZ2cldlaDgxOEFCNURMbU1admJjQk15UjZVeHZZTzBMUTZtRzhxOVpFMmRLcTRyV0kwdmJtRE1PR3RFMkUtSGM2R1hneWJrOE84ajd6WGF6cEN6QTFocW1RLXpGZ2tZckd4ZEhnQWdvMm1temE5eFpYR2NwUHJNSkQ4UGN3ck1ndC0?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE85Zm9UZFFfLTRzMTNsT1VOMlRCSGhST2VueklXLXdMNVlvNDVMbmV0NkdlTExtUE52cTlyRmpLcTNKdEFyRXlsQV9mTXQxZDIwM3M5ZUZySVJQaFhaTjNIUkxadlcwbGw2dUYzenVrYXBmNzkxWFczN1ln?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MVWtROUJVME9XSVdRcVhNOXQ0NkVpUUFDVUdHM3hJc0JTN2JRN3ZSS0FabzZYbVNFVUk1TFJUaWdHaUFMcDRUODRfcnR3NDVEb3FKXzZsa0psM2l6angzNUxfRzBKWVE?oc=5"
       ],
       "titles": [
         "米大統領首席補佐官が退任トランプ氏最側近中間選挙大敗の引責か",
@@ -849,7 +899,17 @@
         "米史上初黒人の下院議長が選出の見通し米民主党が下院議長候補にハキームジェフリーズ院内総務を指名",
         "午後に史上初米中ロ首脳会談へ中国深センでapec首脳会議が開幕トランプ氏は核兵器削減は難しい発言も歴史観論点になるか発言に注目集まる記者解説",
         "クリミア半島とロシア本土を結ぶ橋に再び攻撃cnncojp",
-        "高市首相apecで中国の習主席と再度握手首脳会議に臨む"
+        "高市首相apecで中国の習主席と再度握手首脳会議に臨む",
+        "ロヒンギャ迫害ミャンマー政府が集団殺害ｉｃｊが国家によるジェノサイド初認定",
+        "米国頼みの高市外交限界浮き彫り",
+        "第2次大戦の戦勝国主張にトランプ大統領は乗らず米中露会談高市総理周辺受け止め与党内中身ないとしてもインパクト大きいfnnプライムオンラインフジテレビ系",
+        "情報更新ジェンダー地域性勢力争いが次期国連事務総長の選出に影響unnews記事日本語訳",
+        "米中露首脳会談は写真撮影目的ドイツのメルツ首相がやゆ平和はもたらせない",
+        "紛争影響地におけるビジネスと人権国連指導原則15年その先へ",
+        "ウクライナの攻撃でついに落ちたクリミア大橋ロシアが受ける重大な2つの打撃なぜ今7段階に及ぶ周到な準備を敢行15",
+        "ちよだキースフォーラム2026国連を支える世界こども未来会議inchiyoda",
+        "米中首脳会談習主席台湾問題でアメリカを牽制",
+        "高市首相の約10秒間の握手大国主義の危機に問われる外交手腕"
       ]
     }
   }
