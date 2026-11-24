@@ -1,8 +1,8 @@
 {
-  "last_post_date": "2026-11-23",
+  "last_post_date": "2026-11-24",
   "channels": {
     "AI": {
-      "last_post_date": "2026-11-23",
+      "last_post_date": "2026-11-24",
       "urls": [
         "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -198,7 +198,17 @@
         "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWUd0aGhEUXdGQ2NHUTh3aUJXay1RTWJ1WHlxMnZORE1KWnpGZFV5V1dNNE1hbElpRHJaUjU5QWhuNFIyc0hBck9yRGhPNnNLWjNTNG1mYTNXb1piOU5tRktRMDVyc0ZQT1IxbmRTTU1LMWdFbEV2VWRqNlZQQ0x6Nlc4RHVYWS1QSVEyam13?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xaXFvN2pPT1FqMXJ4SXNNZV8yOWJzMW1KQjJER2pXOFV5cXNvTWoyU2Rtbk5hbGQydXdnTU4ySzFnbnA4MktaSEcxbG1oSmF1dXU3alVnMy0yelRTOUNrZjJSY1B6TnlFMTFlck1rMmxTR191?oc=5",
         "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcXFIcDAwTy1hNVZIYUxKZXdMMVJWUnF5VGFTTElGMFdDWTBmdFdaS3hTTWhkaUhhMDZmbmNhM1BDY0x4Yzg1cWlmMWUwbFBCdkxNZllzT2VDcjJNbWFOZEZ1eVVvSXNHTDJTcF9PbkNpTTNYekZ0c3ZQbDBydWI0TUY2Y05oWS11M1oySXAzSDNXN01ZQ2N1MUhaNVNma0s3SkE0?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jbm1zX2lXaWxDTEJKQ3RhODA5VjBhamUtY2hjaHBqUVdoMnVsY05ma1dydlY4emR1cWh6VEpxQVdTTWZaTUJKSlBYajk0MnhPV255S1JVMFg2dHdsZU95ck5MQlBybW5kZlE?oc=5"
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jbm1zX2lXaWxDTEJKQ3RhODA5VjBhamUtY2hjaHBqUVdoMnVsY05ma1dydlY4emR1cWh6VEpxQVdTTWZaTUJKSlBYajk0MnhPV255S1JVMFg2dHdsZU95ck5MQlBybW5kZlE?oc=5",
+        "https://www.itmedia.co.jp/enterprise/articles/2611/24/news045.html",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiOUViTUk3bWtNLVo0VEhXSV9hU2R3TVY4UkNodFFNajdScFM3V3I1NkhRWEhyeVN6ZnpoaHV4ZzNGd01qTHRXVi03SG9SZ0VNN2g4?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE96YWR5YlA4ek9PeVBGcnZYRk9JNWphS2laTnRHRWY0OVE3RkIyQVYyeGxvendyXzRPMmc1elJET2hGUzJoaURNbXUwenRPSDZ0TVlJSjRjdGRVSFRmRW9lcXhZWm9mZUpGd3pZeA?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mV21HcThWX2lPTW9SM0wza0lkUjUwLUhnZFgwUkIyaGg1N0xXSEZOTkY3dXJSMGJ5QkVTblFpR0RtU2NjQTJ2NU1ScWo0MHRselNoUW56eHV3MjdyOXBpR3AzSTNJTUxqbmxQRFl6UUo2XzdwbEQ5cjdUQ0hRWEU?oc=5",
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zbVU1al9vaFFrTmRrbUhjOXZRczJ3Y0JQRERvT2NNbnFJUzZnaTdRNlRHMkxoa0lLMEhnV1F1UVAtSXN1X2FJS0NYQkdneFRHaGFjSDV5Sl94c2s?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003396/",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeEsyekxkZlBCZ2k0VHVQUi1YYzdvbW5Da0RTOE9PMi1pbVE2YjdoSDhrZmwtOVQtd05ST3hxMGVjTGRnWWhwLTZqOGpoWjlJblZyUHVTYi01ZHJfT3lsamEwOFJ2YkJUeXBTdm9TZ2lKeUtyYVo1ZHZSVFFXdWgyT2Ixel8wWXV2Y0lGbXozNm4xaXQ3WTd2RjVHTmRSbFBjSjZlNlR0YUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LeDkxNHdGNm1ZR3RtZU16RVdpampYdkRBUnBEa3dVYnNack5kdnBrN20wRXhtR29PdGlJYjZKVGxQcFNXSGpFTlp2UXNsVEpBN2dBTzdxVFJ1UQ?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003402/"
       ],
       "titles": [
         "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -395,11 +405,21 @@
         "スーファミでchatgpt220万パラメーターの小型aiを実機で動かすをデモが公開テクノエッジ",
         "openaiの主任科学者perplexityでai開発の上限を定めようと業界共通規範を提案",
         "googleはgemini上で無料のgif作成機能を8か国で展開する",
-        "googleの脅威分析組織gtig脆弱性の発見悪用をaiで完全自動化する攻撃者を初確認"
+        "googleの脅威分析組織gtig脆弱性の発見悪用をaiで完全自動化する攻撃者を初確認",
+        "ノーコードの次は何かaiを組み込むkintoneの新しい呼び名を考える",
+        "anthropicプルリクエストをaiが処理する新機能claudeshipを発表",
+        "nvidiaファン氏晴れぬ疑惑12月に公聴会aiの米中対立は変わらず",
+        "denaai社員を外販使い過ぎを残業時間で管理",
+        "prのレビューから承認までaiに丸投げアンソロピックclaudeship人は不要かビジネスit",
+        "gigabytenvidiartxsparktm搭載のaitopaeroを発売しローカルaiポートフォリオを拡充",
+        "国内で採れないai人材インドで確保日本に呼ばない開発ラボをzenkenが始めた理由",
+        "geminiでパートナーマーケティングをよりスマートに",
+        "openaiのアルトマンが非常にまずいと警告aiエージェント時代に職場が整えるべき6つの備え",
+        "ジェンスンフアン氏nvidiaのceoに復帰マスク氏誤りは正されたai企業代表のコメントまとめ"
       ]
     },
     "政治": {
-      "last_post_date": "2026-11-23",
+      "last_post_date": "2026-11-24",
       "urls": [
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWVdwQjJoTGRVdkw2UFFoZXZyUkQ5VElmVEJ2SllzQkRIUlJDMUxWMGVxcjJoX2k5VGh1ekN4TmM5ejJvRWZWZVNOMU1SUHRzQzJDVkVPME82LS1WMDdpeFpvNzllMnM?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBONjVlQTdncUtCa2pGNk1DbGJkQU93SmhyQnJwTlI3Y0hVWHAzWE9mVGNCb0tvVmNZaTFqNE5mUjBXajN0NEtBNnRtMWl4TkJNQ1NvVUN4QVlWY1J6UFVjSXJBUmpSajA?oc=5",
@@ -570,7 +590,17 @@
         "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40MTZhdGxVNlJ1S3kwY1VwV1RlZ3dKTEN5Y2lWcDJjYlZjWjhORnRPcHBudGM0U2lDUk1VUzhUM0NpZ2JKQTFsbUZhSzRPXzVOU0xDSjdqYTFNZkpLYmU4?oc=5",
         "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GMDYwZ25CdWRMX2VwV3d0bVBGVmd0eHFJSVFvckdFSHoxbUdWR3I3eVdZU29zcEF5bGM2TUFsUHdOSlROd08yWGRJYWdpbk9KemoyeW9B?oc=5",
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oQXBOOHdLOWx3ZGx2cU5XY05wOVJKb3RXTkpleTY3SVFQYTdweHA4NW5qNEk4ZWYwNzAzdHNub29BaEU1SUs0Wk04OUFPa1JpYklYU3RHWmUwcFQxbnNkeWFoUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbGVfNG5TOWFGNTVRQ2NfUnZPYl9Wak01RkNlX2gweVBqTU44YWw5RWRwOHV5RThzc2lWRlg4cW10bDIxRUlISGpoYWhoejM3MWFMT1o4WVdVU2ZGSTlfMlZ0Qk1ZV3FLdlg2Vi1hLUMyTFBMSmRlcG4zNjJhLXRjWmhqNVItZVE?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbGVfNG5TOWFGNTVRQ2NfUnZPYl9Wak01RkNlX2gweVBqTU44YWw5RWRwOHV5RThzc2lWRlg4cW10bDIxRUlISGpoYWhoejM3MWFMT1o4WVdVU2ZGSTlfMlZ0Qk1ZV3FLdlg2Vi1hLUMyTFBMSmRlcG4zNjJhLXRjWmhqNVItZVE?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ibEtqR0hfVDY2YkRqVVpiUnpYOUJUR2I5TmJ1UW9RbGxtOUk0M2dqejhSLVlkV1M1XzAwbjhMVDNQQ0txb1hQdk02dkVjMmFMaW04LWF2OUNaVmpLNHZReENzc2FOYnpseFNNdnNn?oc=5",
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YX1JmVHVoWXRVMjlSbUtjeFN4aDViZWwtU184QWc5eWdra0VFa2N0bEJQZUYxTjhERGkteEU4SE03RlBpTjNOVkx5SVlfdTlWcjJVMTJBaw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZUHA1VnNjN2pWMGFaeUJtbFB6c1ppZnJkN2pXc2VFdzkwc1BvSUZWMjNrclJMNi1DcVRIMENCa2dTSDA4V0NQOWVGQ2ZmTkJnWW1uNGxqd3FBU2NNUHVkRzU5WXIxamdxVlRMaw?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CUlhJNWI5ZFVIWldDa2UxQnBjZ2Q0UlhmUVBvRHJ3elpQTUpJaDJ1N1RXRzVIUi1iMXhUX3V1QXl1U2FycG9UdmFqM3FNVmU3NXBlSTBscTRmcmxyOW1OX1dEcHVfdWpTZG1kcTJnM1NsM2Jh?oc=5",
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Gemg5M2hHTHQ0akVtVjBjZlNGak5mcEpwZVhhVWxxeWJsWEpxdFNwYWhuSzh3UE9YVFd3TmUya2lZQU8tMmNLRlVfWjRZbUlvYnZFVHpSenprbTZBNWRXclA0aDdndw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxdFdUMG1KZTZOd0NidDZkaDU4Q0RMTW92dlhlV1BEQzVhNGkzUG9jSUJVaDR1TFByTmF2c2x3V0pNamNNbGJDMU16MVVpZUJUejEwSmNkZHhxc20tWVVZN054aG5Oenctb1BRcw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oNnNzUGttaFE0dlFuM0dDTHYwbG1fRGR6blNXXy10YUNEcmhCclhKZjZYdHVpa2N2akpySEpZemM1Y0ExeE56S05Qek5PclJpLUdaUGlnVWlEUlcyY3F2dnZXOE5KcXFyTWtzcjdWMDFwM3RFU3llRHpuTnJkbkE?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YOXBMaEJUV214Qy1ITlRneW1VSmhNc3U2VXZvRWJCRG1FcTJFMmtGdnpSOW5wVEU0bEd0RTZNVEE4X2V4X0pTSl9Yemt0TGhxTU42a3hmSjhBSGQtMXhlVDh2YlZZUGxudDkzWXgwTVo5WEZLV1M4MEtfVVE3Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwVThxOXd1WkYwX3pkN1Zpd1VlUTkydnIzakdqVThEa0k3MWxOcXVFcnVHUFBmT2lDZ2M1OGNEQW0xT3FKbmJhZVVxemZYcE5fdlF4THg5dlloZWY4TmdB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OdW1lWlBqVE5NSjBtOWh4MWFWMXIwYkNLVTQ5bXNzaFhNS1FGTXBJR1NRaWpwLS1hMC1rWi1RYVlmUnIySWloSjlMMkJHaG1oR20zUW8ybUF5dUFSd2xQYURDQk1DRE1Wd0RpSjFEZHVvcEZWVlNsUTdWbzA3dzA?oc=5"
       ],
       "titles": [
         "静かに進む国難に高市首相はどう挑む人口減少社会への処方箋は高市早苗首相自民党総裁消滅可能性自治体",
@@ -742,11 +772,21 @@
         "野党関文科相辞任求める声強まる木原官房長官説明が重要",
         "福岡古賀市長選告示秋吉氏暮らしの不便解消田辺氏まちづくりを前進",
         "首相出席削減自民が議論本格化高市氏意向背景野党反発国会改革",
-        "決断は昨年の豪雨災害上天草市長選で４選を果たした堀江隆臣さんの決意2026年11月22日掲載kktnewsnnn"
+        "決断は昨年の豪雨災害上天草市長選で４選を果たした堀江隆臣さんの決意2026年11月22日掲載kktnewsnnn",
+        "趙正湜チョジョンシク韓国国会議長一行による表敬",
+        "木原官房長官アメリカや関係国赤根所長との意思疎通を継続しながら対応検討iccへの支援めぐり",
+        "野党6党文科相の問責決議案提出へ関氏職務に全力辞任否定",
+        "民主主義破壊止める削減法案今すぐ廃案東京新宿駅前しんぶん赤旗",
+        "古川俊治内閣府特命担当大臣科学技術政策が和光地区を視察",
+        "重要な土地取得を許可制に法案が衆院通過法人の実質支配者も把握",
+        "学費は出さない親の猛反対でバイト漬け高市首相学歴詐称デマ同級生が明かす空白の1年過酷な真相女性自身",
+        "木原官房長官ロシア側に即時解放など求めていく拘束されている記者に大使面会",
+        "木原長官高市首相の中国到着時に段差日本側で把握し対応nhkニュース日中関係apec",
+        "官房長官不利益生じる可能性日本製evの優遇除外に懸念毎日新聞"
       ]
     },
     "世界情勢": {
-      "last_post_date": "2026-11-23",
+      "last_post_date": "2026-11-24",
       "urls": [
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NjVNZFV3UHpXbVlxTzhZLXZ5ei00Y2daeDd1OEJvZTlHSWN2czdyeTctRjlsU1JmY2kxdVNuWEFha2k4SDNjcTBnRDFCaXVPUlBCUU83WVJzSkdDMW0xV1RTQQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGY1AxVzFIVG1iQnkyV240al9mVkNRWkgzcmh6ZTFyUUFISEZXYk9JQkRQM3U1TmFNLWVTaVZpTGg0UmVmOEUtYThmdDlaVWVr?oc=5",
@@ -917,7 +957,17 @@
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HcUtGclEtWDJGSWlodkdoRmFqNlZKeVlhWDhQYXQ1T2Rkd3Z1VHVPVktXaVZIOHFMZ2lYZS1SWVlIYW5faElzekNLTjd2R1RKM1ZyOGhUS3pVQmlqLVowdjVqb3Nmb2VVZnJxcHl2OFdCTGl5YUtyTWFGRF9xa2c?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KR3R0LW9jWHo4MlFrc0UycW5vbDVkSWpSZGx2QlNSOTBCdkM0RWtCaDRuM3dZc0VTY1JZc1BMYkdQeXlSV3lVWV9Mc0ZyU29HdXlr?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TMjBiYkpRb21xcE1KS0M2cWZmZkJPMENZenpTbFdlblUtQ3FKbmZJaXRiNEFmbUxqMWo4TUxWOW5ncEtORm1PWGFTMWgtS19wdzZoU25jVTV2amM2S3lBOVlBWkNuQjNYdVlwelNhdlZ3MDItMFE?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sak5rZ215Ym9wTVROSXQwTnR4S2xwYnM4cmJRLXlHRlQ3aEtaS3FnOUJEZV9WeURmOXdUd19EbnNtYzhTOGlxVVE4OE9fNlllSXNPWEFYb09ldDBSXzJxOUxMV2FRRjhZdFU2RzVSektJM3MtSENJRWt6YWxEUTg?oc=5"
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sak5rZ215Ym9wTVROSXQwTnR4S2xwYnM4cmJRLXlHRlQ3aEtaS3FnOUJEZV9WeURmOXdUd19EbnNtYzhTOGlxVVE4OE9fNlllSXNPWEFYb09ldDBSXzJxOUxMV2FRRjhZdFU2RzVSektJM3MtSENJRWt6YWxEUTg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aVnhKUHV4VFVKYTlHSkpTOW51LW5obDBaYmZqYnN0Yl93T3JZaXc3M2Nmd2h3TExFaGI1dWtfVVZRamZWVzRFMWtPNUtqM0RsZTRpQTAxeUlqc0txTy1EQkhfUk9FTm9Rcm9hZzB6ejIySTlIZkhFSkttbUNpcVk?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fU3NJNGpfY1JpSEhHcXprdUxEQnIwZHFCQzFaaldMQkxQUkxEaFVITk9iMy12elNSZ3Zqb0tvS3VyRE9LN3U2Y2FnMEJZQlJEd0w2bFBEcl9FMVR6d0FwQkdhMDg3d1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fNGlGUy1kQ1BIYXZTTUd6eWEtblNKTkhMeHRnaFNEVGY5NnNCdkl1QzRKTmMxenQ2WVRqQ3YyTi1EOGdIQUJ0NzFWU0dta1dkM0hJQWln?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pb1FwNENCYlN1amMtVk9DSThZREFOVWFhdWhqcWl0LTRBbDRxZHlrMGg5QkxhUU1WcXRna3pBcTg1STg4YU85eWtGLXFMVVhkSFdxZXNFOV9HUWdPRXJxN1RpZw?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TS1pyR3RtZ0hQdjBfeG1ERWpvOExYUExPcG1oZVQxd1BnT2t3VTFKZlFYQm5HLWRUNy1iUXNpX3pRSHcwS2M3RUt1ZWZsTXRtazY5TXZFMjFjM3UyMGNZLXpoN2NNYmpZNlR4MG1sM1JGQ3o1S0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44WTJEVy1kZ0ZlX3h5TG50OThyMG9UWV9PZk9TZHFMLXdwU2RlWE03RmFRQ0ItWVhMT09fNFdscnhMSVc1TEJQckVaeFJPQWlibjMwWkN3?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPTVBMRjdXV0Z6Vm0wRElmTHdzY0ZaOERKbGQzdnVaaWNHZ2huWWg0UE9oLXhRVFdNQXpfTW1nR293RHVYa3VyQm13LTROek51eXhoNklkUWg0dTZaQVZRMjh3?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE51U01LUEZoOXJ1QlJqSHVUN2tyWVdzQ09xal82eFhxU3JiVXhJd0RjUHBoNnJzOWR3TVd6Y2lycHprLVJoVFc3VWs4azV4SW5lc0czNGJETU9NbUx5TmJBOGFWU2lYQTFoRk8wR3IxalpNRUt3WkNrZWwwRlFDSnc?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE80OFpOQ1hTeHBQVF9ZcXRUTWgzLTJHaUkxZGllN0hQYTZDOVhrblo3eDNMYndsUHR1bUhnNUNYVkV2S0FQd2xBek9SRUlyd2lGNjNNejlWOUFyNnE1SHdZb2JNZjVvQTJVamM4V3hlTHJpQ3pUVFdFOGFhWlQ5ZVE?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BS3d6aHpCenJBeW5MSUREQklaQnU5VWZLOE1rRnM1dXNmX1JuMUdBd2hWY0NzQjJMYk53SWNOYk1LcGZlSkdiZ3dEM2E2UVNvMWVxRXI1ckRaaENPSVpkZEgtcy1YWUZseFh6Mw?oc=5"
       ],
       "titles": [
         "米大統領首席補佐官が退任トランプ氏最側近中間選挙大敗の引責か",
@@ -1089,7 +1139,17 @@
         "プーチン政権の記念碑の橋修復作業は長期化かウクライナ攻撃で一部崩落ロシア軍の補給混乱読売新聞オンライン",
         "ホルムズ海峡におけるイランの攻撃紛争開始以来の最高水準に海事データ分析",
         "露プーチン大統領が集団防衛容認かウクライナ領内への欧米軍駐留なし条件米紙報道",
-        "中国の外交儀礼は非礼事前に連絡を受けていたのにこの対応高市首相のタラップ問題で橋下徹氏の批判続く"
+        "中国の外交儀礼は非礼事前に連絡を受けていたのにこの対応高市首相のタラップ問題で橋下徹氏の批判続く",
+        "トランプ氏連邦政府による死刑執行の迅速化を指示ａｆｐ時事",
+        "自然界は戦争の声なき犠牲者紛争や軍事活動が加速する気候変動",
+        "米中ロ首脳会談を主導したプーチン大統領真の狙いは中国封じ込めか13",
+        "横井篤文副学長が国連貿易開発会議unctadを訪問",
+        "ロシアが核弾頭搭載衛星を年内打ち上げか独メディア3社低軌道衛星が機能停止可能性",
+        "国際教養学部杉本一郎教授が日本シンガポール外交関係樹立60周年記念シンポジウムで講演",
+        "実現しなかった米朝首脳会談背景に北朝鮮が米側が受け入れられない条件を提示か",
+        "wfp事務局長壊滅的な飢餓に紛争激化食料価格に影響毎日新聞",
+        "米民主党スーパーpac支援拒否を要求次期大統領選予備選討論会の参加希望者に産経新聞",
+        "金与正氏平壌のスイス外交事務所撤退を勧告制裁に反発"
       ]
     }
   }
