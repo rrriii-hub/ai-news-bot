@@ -1,8 +1,8 @@
 {
-  "last_post_date": "2026-11-26",
+  "last_post_date": "2026-11-27",
   "channels": {
     "AI": {
-      "last_post_date": "2026-11-26",
+      "last_post_date": "2026-11-27",
       "urls": [
         "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Dd0NYMXBLVl8tTno0QTBLUGhHRG81ZFZuenBCYVNpNF94Y2d4MW9kaVNheEJVZXRJVWh5R000THJwbXRXTkJFRVJaYzZBNXNaLXdQZXRDd0l3N3VtQTl0NkRUeG83Z1gwYjFGQkZGNlNIdXpQUkV3NnJ6aGVnU1k?oc=5",
@@ -228,7 +228,17 @@
         "https://www.itmedia.co.jp/news/article/2611/26/2000003447/",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfMFFPRnZkQ211V0ducHM5YkVReEw2SXBhTXg2eEgyTE50c0Vlc3Jvbk13N3NfcktVY0R4ZC1DOGdLX0ZlNjdWQzVtVU5USF9fVU93dHdpd3NSOHVhUnlBUy1HelNvOVE?oc=5",
         "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ed0M3aEp0TUU3VWZpLXlHMzVTRFFVcXV4cmMtUHlwbTI5S0Y3bUtJNGdHS0FSQ3VuUS1rWmNmTjRkNG1sOHRqUTVsYnFmLVNzOGw5RUVYNUJrOTA3QWV3dg?oc=5",
-        "https://www.itmedia.co.jp/news/article/2611/26/2000003460/"
+        "https://www.itmedia.co.jp/news/article/2611/26/2000003460/",
+        "https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE51dGFxRFR2SkRoLWg2Tm9odWN2Zml3NHNFbGxwdFZXOGJ0V0IwY3RHSDlrYmJBZkxNempxa2lWS28tSzVyUXZmOWczaVM3NWs5UmwtV012UHpQdHZWTERJMUR0MkNhYjU4d21xU0szaHRndw?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tTXNwYkFLRlp1WlMybUV1eXNjVHJZc0RrSTVPWlY0NUotdzlQTVpJSThuLU9Iekx1akQ1RkRyUl9jV3FJVy1tU2RSaUFVRlVrb01femZ4bjV6TGlta1lab2Z6aXpieFNuWnM0TmlaREpWM1ZL?oc=5",
+        "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news035.html",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yN2wwNzlzZnJHazRlTVVDSm5zTVl1NmRjTjVTNVFDaTRUU3N1NUc5dU1Md1loaVRwa0xMZkFSeG9SVGs5anNTMlFLWG84bFRzeHgyMzJpVVRxZDNpT09heGpoQ3d1UHliQkdqU291YmhIclgydW9Hb1JhTnItRTA?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnQ3dGakREZWEyclljT1NrU2RLZllTVHBIUVFualBaZVdmVDF4OTlCcGRPWDIzQzMwS1k1bzQ3ZTA2aVhGX2p5Q002TGJJMjI3ZUhXLXY0T2tBdG5McnlYeTgyX2g?oc=5",
+        "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuMmVfckg2YjFqMnBRUnBWWEhjRngySFl2RTlwdDd5Mm5haXMyNVVva0xIZ1c1UlZTNzllT3ZHZ0xyT3ZEczlVRFAtb0VUTUxTX1QteGR1c3RlR3FTakxBSS1FcnlkYlVkcHMyU1VB?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56TDNfOThJcWZmSHhtOC14VEpPN1o2cWdLYjd0aUQ3Y05DM3VRR2p4LXYyOHpzX2VKLW9MdjVQQXByRlpGbWVxQTE1d1RROFdSc1N2d3FiUW9xMFdWc2JoVl9KWFFsN0w1?oc=5",
+        "https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505/"
       ],
       "titles": [
         "国産ai開発のnoetraテックブログ開設開発現場での試行錯誤や工夫も発信",
@@ -455,11 +465,21 @@
         "飲食店のai商品画像は景品表示法違反にならないの弁護士の見解",
         "独自解析で見えたclaudeとgptgeminiの性格分かりませんが強み",
         "イオレもみ合いnvidia最新gpuサーバーでai計算基盤事業を拡大",
-        "githubに人には見えない隠し文字小型aiの操作狙うものも1億4500万件を調査"
+        "githubに人には見えない隠し文字小型aiの操作狙うものも1億4500万件を調査",
+        "aiリスク監査の実施わずか57内部監査が追い付かないもう一つのリスクとは",
+        "電通がgeminiを使いこなすfdeら3000人育成プログラムを開始その内容とは",
+        "nvidia自己回帰型の画像生成aiを無償公開拡散モデル前提を覆す",
+        "aiエージェントの行動が適切か暴走かをどう見極めるgoogleが明かすテストの盲点",
+        "macbeexの藤原社長が解説生成aiを使いこなせている人の約6割超が単発利用壁打ちの段階日本ネット経済新聞",
+        "nvidia出荷停止懸念でai供給網リスク浮上今日の市場はどう動いた",
+        "コスト削減の次の成果どう設定するビジネス変革に結び付けるための期待の中身",
+        "生成aiチャットボット料金比較ガイドを公開10社の初期費用月額料金料金体系を比較したガイドを無料提供",
+        "安全性のanthropicはどこへ超知能開発競争で揺らぐ信頼",
+        "生成ai登場で人員増えた部門減った部門はデロイト調査"
       ]
     },
     "政治": {
-      "last_post_date": "2026-11-26",
+      "last_post_date": "2026-11-27",
       "urls": [
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWVdwQjJoTGRVdkw2UFFoZXZyUkQ5VElmVEJ2SllzQkRIUlJDMUxWMGVxcjJoX2k5VGh1ekN4TmM5ejJvRWZWZVNOMU1SUHRzQzJDVkVPME82LS1WMDdpeFpvNzllMnM?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBONjVlQTdncUtCa2pGNk1DbGJkQU93SmhyQnJwTlI3Y0hVWHAzWE9mVGNCb0tvVmNZaTFqNE5mUjBXajN0NEtBNnRtMWl4TkJNQ1NvVUN4QVlWY1J6UFVjSXJBUmpSajA?oc=5",
@@ -660,7 +680,17 @@
         "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPMFpPNUJ4d01CRU1rbmpCYnFSTmtaZkd6OUxybDFOVFc1OV9yR3ZqWFBXZEV6b3hKQjU3aVZSQXBQak00YWtMYVVxRDlPVUxxV1BvenJwUjNmaTY2SUNkVnpMLWlsVkZCOWt0X3NiekFkbFZ2bDZLeDJnWFc5TUtkaWdSNHRGLTlSaUZSNk5taGdkVE9MWlVkaXFLYXhSY3JYdE9fQksyTWlDRjExc18zcEZvYS15RFl3SmR2djFReEFxTkhRRFlXVGJuX1l1UHFrMUVkbUd0U3VoM3d1bkI2UE1QcmRKRk9lNHctUTFCUGR5NDNLbk9VNFdOWFlOaWk3bnJOTk14bG00b0ZWZTRncjdOZ0paeTV2QWtfenRjTlFtS2JIUTFGUHZ5bDZrS2tlVzh6dWdJNVZUR1A2dWdpMlRLOWlDdTRUN2xGSGVHMjd5NV9lM0ZIUDlZZUxyejRUbXNkQnJES0E2VzFhR2lFX1FKa1RGcXpT?oc=5",
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBocTNTTWhNcVgydjZtcFpzZmU4SU40N2ZtTW54YXkxczNYbE5QdWZyRVpMRlk3cnBMUHpoOTRmU2xfdVhic2Uwbm0yZEJjNEJmZjhobjN3SkhNQkdYdFRqRU1NTQ?oc=5",
         "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSHJVZk1rUlY1REw5ZXBRaDFLbEpDMG1xRDJWV01XaTU3UTA5V3FYYWxBLTFLUUw0WDg3TEk0SUl3UnNZQmVOa0JlQm5NelRPeFkzZjhiVjVyS0dFRDFpbjlOT0wxOFVaTlJqMDJncENDUVJ5LTlNWDdjamlBUUpxY2ZQYnVRY3VlUFc3am5vRzFhcU5ucTh5c28tVFVYZ2tyczZYNG1zRnNkNndMNS1QQTREMGtKTFdfeUxJQWNDT0VNU0hGcXZ0WUVKUjBxUEJVVEdoMkZGcmZiMVl1b1dqb0ZBSThjeXVY?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fY1VhTnZvS1pWZEVHekV1cWdoQXViTFNGTm51a2FQTW9pYlF6UW5tdFNCMGJucWxsb0drSlcxUmJ4MWotM3RxUFpCRTk3MldPMXBJcTcxNA?oc=5"
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fY1VhTnZvS1pWZEVHekV1cWdoQXViTFNGTm51a2FQTW9pYlF6UW5tdFNCMGJucWxsb0drSlcxUmJ4MWotM3RxUFpCRTk3MldPMXBJcTcxNA?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56djVIb0gycjJQd1ZpdFRMM3RSckl0UndFYjdSUHZ0RjQzYXRNSEphUktpeVF3WF9la0Vza1k1T1hLb19PNkRMaDdOVVJ2M0c2SUhPc3lFNjZqN2R2YTc4SkVLTHZoRTg?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CVTFUdk9OUHh3SzBwb3ZWUzVnbUI1dVhwNG9DckpLNVF4d0x6dXN4SUc4RVNPMzA3aXljN1FCUk5EcmRGUDhJX1FTYXFXcDZSUmY1amthbjExQ2I0YzhYQWlQaw?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YWVZMTGNZS09NV0poTDFIQUpDWUpEbU13TmVmMEpqZTYwWEkxV2IyZF9icUZDYWl5WW1pZ1NDdmpoRkt1R09idlpKdEJPNXJINVhDblV2WGREaUVXd3g2ZjBSUXVuMGUtYnI4cUNlWjNFMlRR?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qZHNrdHlSdVNkN0xRREEydEVYUFEwY0FWaGd6SzZnOVZ0SURjUWpkd2ZWcFl4c0xrZG5TeWdla3JhV0h2YUtScHFkb3otTDVaM3NFRHVvdEdOc1ZCNm4w?oc=5",
+        "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5LSy1lT1Z6X0Z6MnNOeHRNSUxLSndRWVUzNTZRbk5KVjY5N002RFQ5SkV3ZEtxc0NzV2lJWGxR?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fZEZfQ1lQXzB5TmplZGxSb0NLR0VuU3I5a0FoMUhRbldSLTBXTmlseHRFT3FhV05CLWtvSkw5cnNodDhQMWhKejVaeERQNUNTX20zTXVhZXFFNnBYNUp6ZExjWm1UaHpfSlN6VHFhM2owajBL?oc=5",
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WNkxUUFloOU9fVVhueFNySG8zMHpGRGp3Q05NaVpFWGE1LW1HdjBwNmVUSzQ2enFNSENfSXBQRXpZUUxCbmJWUExqSzk3eEJGY2FnNWlINA?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aRktoVlhHMWRwRUxjdzJFbkNwRlY5VThyNFlUQzhxYVI4OGhPRDU1cUxGVGJWNm92T2loS1l3UkZtWE1lRHVobDBoTlh1YWEtczhfLVhpTS1vZ1oycFZGaVo2V2lfbk5ZM2NmZXdBMEJXZHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PaS1iS3g1eEZNUnlZU2dWQTQzdnB3Z3B1NVJYV0hxdzJId3lQVFpwNjBjRFdxWmdjUEh6OXFmbFlXem5Ec1VfOFVuMGtNT1VfM2Nv?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kcXVGX2N2d3Zhc0JzOFZicFBYOWJwNC1HYk9URkxIU0U2bTFvRnNSdWdXS0JzN2ZlMXpuVEdIbUFQSE43RWIwNm92bnpVR05uSEs0Sg?oc=5"
       ],
       "titles": [
         "静かに進む国難に高市首相はどう挑む人口減少社会への処方箋は高市早苗首相自民党総裁消滅可能性自治体",
@@ -862,11 +892,21 @@
         "強引な国会運営に怒り衆院定数減国民生活に資さず",
         "木原官房長官米新関税に遺憾日本に過剰生産ない",
         "ゼレンスキー氏のレシーブに拍手ハンガリー首相がバレーボールで交流",
-        "木原官房長官日本への措置案発表は遺憾とアメリカに申し入れトランプ政権が追加関税の案を公表"
+        "木原官房長官日本への措置案発表は遺憾とアメリカに申し入れトランプ政権が追加関税の案を公表",
+        "関文科相の問責決議案を否決参院本会議与党などの反対多数で",
+        "静岡市の難波喬司市長来年4月の市長選に立候補表明市の総合計画を着実に進め結果を出すと決意",
+        "比例削減廃案何としても国会内で緊急集会世論さらに田村委員長があいさつしんぶん赤旗",
+        "片山財務相補正予算案は必要な施策に絞って盛り込む方針",
+        "自民党税制調査会小委員会に出席しました",
+        "少数政党排除の改悪定数削減法案塩川氏廃案要求しんぶん赤旗",
+        "閣僚政治とカネ問題相次ぐ高市内閣自民ベテランお咎めなしはおかしい総理与党との神経戦続く見通し自民維新双方から厳しい意見噴出記者解説",
+        "いじめ過去最多極めて重く受け止める木原官房長官",
+        "国家戦略として教員不足解消を自民党が緊急決議",
+        "速報維新吉村代表一定の区切りついたと思うただ非常に僅差なのでしっかり反省を関文科大臣の問責決議案が4票差で否決を受け結論出てまだ言うのは違う重要法案の審議に影響が出ないよう求める"
       ]
     },
     "世界情勢": {
-      "last_post_date": "2026-11-26",
+      "last_post_date": "2026-11-27",
       "urls": [
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4NjVNZFV3UHpXbVlxTzhZLXZ5ei00Y2daeDd1OEJvZTlHSWN2czdyeTctRjlsU1JmY2kxdVNuWEFha2k4SDNjcTBnRDFCaXVPUlBCUU83WVJzSkdDMW0xV1RTQQ?oc=5",
         "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGY1AxVzFIVG1iQnkyV240al9mVkNRWkgzcmh6ZTFyUUFISEZXYk9JQkRQM3U1TmFNLWVTaVZpTGg0UmVmOEUtYThmdDlaVWVr?oc=5",
@@ -1067,7 +1107,17 @@
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ZUZTdldTUnVjaGFiUVNZVzVPdzdhWTYxYU1xc0hjbjhvaDJHVUx3ZXBMYTc1V18tT0k1RHFOVW5KaFhWUFZyQmh4OHVJRU1NRXhUc2ZfS01kVXNHWUhtOF9hbjk2aFU1SmFMSldrV2lRRkJoalNqODlKU2FINms?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uM0wtcFRaZGZVQ2pNWXdhWFREcXdCNzEzZjk3b1hOR21seE9UeGI2U1Q2WGNMMDJVaUpCYk9QNTRmVGhoSmtUSnRwSlZNUVBzNDNfUWFnMUtEdw?oc=5",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qa2tleUtaZzZ3eVRqaGF6dHBwNTM4YkpKa0Fyc01rMVFZNE1QZTloT3FjaUJmUlB5ajh2M0IxOENWWUtlS2ZDWUlIT0FhSWszc1FPZUd1QUFJalJsZi14RGF4T3VmeUJ2bXI3SG5pbUEzYmFQRU0wRmxUamRHelU?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OeUh2SHBSd1dfWU5OQnF5Z0x2MjVYQ2VSNE11eF9vWjh3eFJYQlR6QVJ3X01WamIxTXFzMHFJYlhuc2NfZHkwZXFJNUtpdkJGT2VXVEZ0UG9MS25tNWw3clNXX0h0ZFU?oc=5"
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OeUh2SHBSd1dfWU5OQnF5Z0x2MjVYQ2VSNE11eF9vWjh3eFJYQlR6QVJ3X01WamIxTXFzMHFJYlhuc2NfZHkwZXFJNUtpdkJGT2VXVEZ0UG9MS25tNWw3clNXX0h0ZFU?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aSGRKWDZVZ2c2ZXVubG9UR0M3Nk0tcjFJUlh2U2NpQnJCZjdVdUg5VzkwWUpqRWVpMV9RV3V4M09aaTJZWlFNdUNPRFpRdUJTejZMLWQ5M0N4WWxXQXJBTXZWYW9oMTVTTkRsSWw0a0ZBaW5KV1BWNkJYTTFnbFE?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZTQ5NVpzYkUyMVNSeHRjXzRQZ0Uwd1JQWW9pWFVJV3BIZVU5X1V5dDFlWmpfeFVQbWhYQ09vUjEwTU9XWVV3TmJBeVFkWTNBSGRlcWF0SXoyaTlLckx6T1k4N0ZDYmNILWd4c3RkSk5ldw?oc=5",
+        "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YNUZjSk42NVY3Z1VwRUhIQXZfZDdfbzdOQ0h0THh6WkZDWUFXd1VJWlRhc2JDVGpLUE1UMGpoZlBRUnJEdk4ya05ZNy1OUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJeEZvaGNVTnJXZzMwTVEzakRLa3A3WktISzNTM09LOWE3TGZIZ3pxVVNTSHRmTTBwTUp3amtFZXBnMGxMWklvV2VsaHI4bDZ1b2xMaElqc29KYjZGeF9NUHBxZE5ZR2V1WGNQY1VUMnFBVWVU?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0NVloeW1meUdPeTBlbXhMTEFIRzZVMnNyX2N1bEVBd1BiY1dFN0VHX2NORFVlcGZySmwxUDZ2NWxpMFZ2Wjc4NmVjWDF5Z0ZlY1RYejY1aG1sMXRNeHRGamh5anZ4Sy1VbjFVMjYtd1Mwc0lBLUhDOXU5dy02QdIBgwFBVV95cUxNV2xDTGJraTR0dDdWTWU1cHlBeDdXYTZadEVnT1kxS1FQVXZkV2dJWjAwVVhlUlE5ZmMzTmQxMEZLdzVaeDF1eXJxUTlndlpNU3NsNUdHY1RIUS1nSDJ1cExyWngwel9WYVBZT05jRk1LdGxaZE5GdWMzUUxXTXBWM1lVVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xMmljWklDdnZJTl9jbFQxWXhzR2lueWRxMVFrUE1xUGdlS19VQWlLRTlFXzNTUy1neFJyeVdkNXY4SFVKWl9ZVlhnRE1sSzJVM2dZTnBHN1dKUjZLYlVNUDdvRnVzYXV6QVhqdEVfRkJwX1ZLZG9INTljX2R5UzQ?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE00UnNOcnhZT2VSV2FrSjNSSXBuTFN5ZWM1UXd0TW1ONkxNTWEyQ3JYQjVKdUZNZUNkZ3hTTkZyZlU5LWttN0NDdi04Z0Vwc1k5bndlS3lYUTg2UHRmTXlKbXB0VXZjZmtLWlh0WHlzWU9tYldiVjlIUE55a2RoTDA?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZVjFaZENfazJOTDBsUWdGc3o5QlB5eWx5VmMtdWJGV3Bxc0lpMzZLWVVWNjNoaEl3NkpEZVJ6SzJJeWh4MGtoTC04M3pta2JmM0dB?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zTHRrNmFkQldrTDdQeUZvYjhIY2Y4eVdIbzNrVTJpSmNXeEpnSTQwd01HYWRSNWJUYlAxOXhrbVZuUS1ObFpFcm96elNXWHBndmg5UXRIV1Uwc2NMOXFwVDYySk9XZTVIYVJHdQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1faUI4a0Z4enp6Y0RudVA3QmFaaUpTUTl2UWRIaHhBXzduV25XdUZqODVPeGJmMkdSbnM3VWVzemZUQWtZRkRESGFmcTN1WEpxQ21jbXpoNHpYSTl0N3c?oc=5"
       ],
       "titles": [
         "米大統領首席補佐官が退任トランプ氏最側近中間選挙大敗の引責か",
@@ -1269,7 +1319,17 @@
         "原油先物上昇サウジ最大製油所攻撃で供給混乱懸念",
         "米中露首脳会談後の平和宣言と上海トップ失脚中国で何が起きているのか",
         "トランプ氏爆破処理までの経緯を批判した次期アイオワ州知事に警告覚えておくcnncojp",
-        "禁輸のイラン産物が至る所にドバイ商人が語る制裁逃れの実態"
+        "禁輸のイラン産物が至る所にドバイ商人が語る制裁逃れの実態",
+        "トランプ氏娘婿プーチン氏は核兵器を使用せず自制を示してきた偉大な政治家と形容cnncojp",
+        "日マーシャル諸島首脳会談外務省",
+        "ウクライナ国防省情報総局発表北朝鮮がロシアへの軍事支援を一時停止かロシア外務次官の南北緊張緩和への貢献発言をめぐり亀裂か",
+        "９条いかす政治を畑野氏高市外交を批判衆院憲法審査会しんぶん赤旗",
+        "サウジアラムコ製油所に攻撃作業員1人死亡操業一時停止",
+        "北海ブレント先物月間高値圏で推移中東紛争で供給懸念",
+        "リビア犠牲者に哀悼の意ウクライナ外相が電話共同通信",
+        "ガザでイスラエルの暗殺作戦が激化停戦履行迫る米政権の要求にも応じず",
+        "上海市トップ失脚習近平氏の強さと弱さ映す呉軍華氏",
+        "quad開催は大きな意義外交合同会議が総理の外国歴訪についてヒアリングお知らせニュース"
       ]
     }
   }
